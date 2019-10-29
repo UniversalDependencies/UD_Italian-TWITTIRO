@@ -41,7 +41,7 @@ Category=value feature pairs: 42
 * Cignarella, A. T., Bosco, C., & Rosso, P. (2019). Presenting TWITTIRÒ-UD: An Italian Twitter Treebank in Universal Dependencies. In Proceedings of the Fifth International Conference on Dependency Linguistics (Depling, SyntaxFest 2019) (pp. 190-197).
 
 
-# Metadata
+## Metadata
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.5

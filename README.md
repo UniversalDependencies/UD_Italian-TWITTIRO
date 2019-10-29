@@ -27,15 +27,10 @@ The treebank has been randomly split as follows:
 
 # Basic statistics
 Tree count:  1,424
-
 Word count:  29,605
-
 Token count: 28,387
-
 Dep. relations: 54 of which 19 language specific
-
 POS tags: 16
-
 Category=value feature pairs: 42
 
 

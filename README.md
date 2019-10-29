@@ -13,7 +13,7 @@ The original corpus consists of 1,424 tweets (28,387 tokens). The syntactic anno
  
 In order to meet the requirements of the EU General Data Protection Regulation (GDPR), entered into force on May 2018, the resource content has been pseudonymized, by substituting original tweet IDs and user names.
 
-:warning: An overall amount of 534 tweets overlaps with [PoSTWITA-UD](https://github.com/UniversalDependencies/UD_Italian-PoSTWITA). 
+:warning: An overall amount of 527 tweets overlaps with [PoSTWITA-UD](https://github.com/UniversalDependencies/UD_Italian-PoSTWITA).
 The overlapping content however has been distributed such that it ends up in the same partition in both treebanks.
 
 

@@ -47,6 +47,7 @@ Category=value feature pairs: 42
 # Metadata
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
+```
 Data available since: UD v2.5
 License: CC BY-SA 4.0
 Includes text: yes
@@ -59,4 +60,5 @@ Relations: converted from manual
 Contributors: Cignarella, Alessandra T.; Bosco, Cristina; Sanguinetti, Manuela
 Contributing: elsewhere
 Contact: cigna@di.unito.it
+```
 ===============================================================================

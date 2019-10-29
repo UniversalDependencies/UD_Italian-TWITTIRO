@@ -39,7 +39,7 @@ Category=value feature pairs: 42
 
 * Cignarella, A. T., Bosco, C., & Rosso, P. (2019). Presenting TWITTIRÒ-UD: An Italian Twitter Treebank in Universal Dependencies. In Proceedings of the Fifth International Conference on Dependency Linguistics (Depling, SyntaxFest 2019) (pp. 190-197).
 
-* Cignarella, A. T., Frenda, S., Basile, V., Bosco, C., Patti, V., & Rosso, P. (2018). Overview of the evalita 2018 task on Irony Detection in Italian Tweets (IronITA). In Sixth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian (EVALITA 2018) (Vol. 2263, pp. 1-6). CEUR-WS.
+* Cignarella, A. T., Frenda, S., Basile, V., Bosco, C., Patti, V., & Rosso, P. (2018). Overview of the EVALITA 2018 task on Irony Detection in Italian Tweets (IronITA). In Sixth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian (EVALITA 2018) (Vol. 2263, pp. 1-6). CEUR-WS.
 
 * Karoui, J., Benamara, F., Moriceau, V., Patti, V., Bosco, C., and Aussenac-Gilles, N. (2017). Exploring the impact of pragmatic phenomena on irony detection in tweets: A multilingual corpus study. In Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics (pp. 262–272)
 

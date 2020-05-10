@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Italian-TWITTIRO:
-commit e978fce1a8a48dffb246b013437d2417ae6c1a89
+commit 301172d0f55e3933792852909713f70d8c86e460
+Merge: 7c7dcf5 1686e24
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 15:51:47 2019 +0100
 Size: counted 29605 of 29605 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.77588653196748.
 Size: maximum value 13.815511 is for 1000000 words or more.

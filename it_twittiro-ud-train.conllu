@@ -15988,7 +15988,7 @@
 9	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 10	Come	come	ADV	B	_	9	discourse	_	_
 11	scusi	scusare	VERB	V	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
-12	?	?	PUNCT	FS	_	9	punct	_	_
+12	?	?	PUNCT	FS	_	11	punct	_	_
 13-14	Dicesi	_	_	_	_	_	_	_	_
 13	Dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:impers	_	_
@@ -16787,7 +16787,7 @@
 5	?	?	PUNCT	FS	_	4	punct	_	_
 6	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	parataxis	_	_
 7	bello	bello	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
-8	,	,	PUNCT	FF	_	10	punct	_	_
+8	,	,	PUNCT	FF	_	9	punct	_	_
 9	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	conj	_	_
 10	bene	bene	ADV	B	_	9	advmod	_	_
 11	...	...	PUNCT	FF	_	9	punct	_	_

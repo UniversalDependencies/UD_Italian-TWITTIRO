@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Italian-TWITTIRO:
-commit 301172d0f55e3933792852909713f70d8c86e460
-Merge: 7c7dcf5 1686e24
+commit 46f75c04907f2833171476adc30565e98dac417b
+Merge: 4ece137 dc64b8b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 29605 of 29605 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.77588653196748.
@@ -19,7 +19,7 @@ Features: 14895 out of 29605 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 52 bugs.
+Udapi: found 50 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 29605 words.
 Genres: found 1 out of 17 known.
 validate.py --lang it --max-err=10 UD_Italian-TWITTIRO/it_twittiro-ud-dev.conllu
@@ -35,8 +35,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.490455021806006) = 0.125757697898976
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.982435399425773) = 0.30228781520793
+(weight=0.307692307692308) * (score{udapi}=0.98311096098632) = 0.302495680303483
 (weight=0.0769230769230769) * (score{udeprels}=0.756756756756757) = 0.0582120582120582
-(TOTAL score=0.689213830745812) * (availability=1) * (validity=1) = 0.689213830745812
+(TOTAL score=0.689421695841365) * (availability=1) * (validity=1) = 0.689421695841365
 STARS = 3.5
-UD_Italian-TWITTIRO	0.689213830745812	3.5
+UD_Italian-TWITTIRO	0.689421695841365	3.5

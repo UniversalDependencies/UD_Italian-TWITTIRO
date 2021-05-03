@@ -14702,7 +14702,7 @@
 9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 10	cardinali	cardinale	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
 11	polacchi	polacco	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
-12	ti	ti	PRON	PRON	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	13	iobj	_	_
+12	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	13	iobj	_	_
 13	costerebbero	costare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 14	molto	molto	ADV	B	_	15	advmod	_	_
 15	meno	meno	ADV	B	_	13	advmod	_	SpaceAfter=No

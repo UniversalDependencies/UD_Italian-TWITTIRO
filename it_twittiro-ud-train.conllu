@@ -18475,7 +18475,7 @@
 16-17	Al	_	_	_	_	_	_	_	_
 16	A	a	ADP	E	_	19	case	_	_
 17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-18	1'	1'	ADJ	ADJ	NumType=Card	19	amod	_	SpaceAfter=No
+18	1'	1'	ADJ	A	NumType=Card	19	amod	_	SpaceAfter=No
 19	posto	posto	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
 20-21	della	_	_	_	_	_	_	_	_
 20	di	di	ADP	E	_	22	case	_	_
@@ -23784,7 +23784,7 @@
 25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	dottore	dottore	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
 27	!	!	PUNCT	FS	_	24	punct	_	_
-28	http://t.co/mmToHn5Mzo	http://t.co/mmToHn5Mzo	SYM	SYM	_	9	dep	_	SpaceAfter=No
+28	http://t.co/mmToHn5Mzo	http://t.co/mmToHn5Mzo	SYM	SYM	_	9	dep	_	SpaceAfter=\n
 
 # sent_id = train_924
 # text = la buona scuola di renzi ha avuto la sua apoteosi in liguria con la beffa dei contributi per i progetti
@@ -24093,7 +24093,7 @@
 5	unità	unità	NOUN	S	Gender=Fem	1	nmod	_	_
 6	per	per	ADP	E	_	8	case	_	_
 7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	personale	personale	NOUN	NOUN	Number=Sing	1	nmod	_	_
+8	personale	personale	NOUN	S	Number=Sing	1	nmod	_	_
 9	Ata	Ata	NOUN	S	Number=Sing	8	nmod	_	_
 10	(	(	PUNCT	FB	_	12	punct	_	_
 11	50,7	50,7	NUM	N	NumType=Card	12	nummod	_	_

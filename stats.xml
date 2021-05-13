@@ -28,7 +28,7 @@
     <tag name="PROPN">2014</tag><!-- monti, mario, Renzi, italia, pd, roma, Berlusconi, Salvini, Papa, giannini -->
     <tag name="PUNCT">4634</tag><!-- ., ,, [, ], :, ?, ", !, “, ... -->
     <tag name="SCONJ">390</tag><!-- che, se, quando, perché, come, dopo, mentre, purché, sennò, Matté -->
-    <tag name="SYM">2146</tag><!-- @user, #labuonascuola, #monti, @user1, @user2, #renzi, #scuola, @user3, h​t​t​p​:​/​/​t​.​c​o​/​o​D​P​U​t​x​2​D​v​V, #Grillo -->
+    <tag name="SYM">2146</tag><!-- @user, #labuonascuola, #monti, @user1, @user2, #renzi, #scuola, @user3, http://t.co/oDPUtx2DvV, #Grillo -->
     <tag name="VERB">2846</tag><!-- fare, avere, essere, dire, continuare, andare, vedere, sapere, mettere, parlare -->
     <tag name="X">111</tag><!-- i, o, partes, super, zan, #labuonascuola, #tassadopotassare, 10cent, 13.mo, AAA -->
   </tags>

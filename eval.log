@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Italian-TWITTIRO:
-commit 63a6028ae62a49454c979fd6bbebfbcea8627076
+commit 29a4ac73f3c87434d17fd6fd27bc3678d74d98e5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 09:29:54 2021 +0200
+Date:   Wed Nov 3 16:32:53 2021 +0100
 Size: counted 29605 of 29605 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.77588653196748.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -29,8 +29,12 @@ validate.py --lang it --max-err=10 UD_Italian-TWITTIRO/it_twittiro-ud-dev.conllu
 validate.py --lang it --max-err=10 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu
 *** PASSED ***
 validate.py --lang it --max-err=10 UD_Italian-TWITTIRO/it_twittiro-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 20709 Sent train_804 Node 13]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 20710 Sent train_804 Node 14]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+Morpho errors: 2
+*** FAILED *** with 2 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -39,6 +43,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.98311096098632) = 0.302495680303483
 (weight=0.0769230769230769) * (score{udeprels}=0.756756756756757) = 0.0582120582120582
-(TOTAL score=0.689421695841365) * (availability=1) * (validity=1) = 0.689421695841365
-STARS = 3.5
-UD_Italian-TWITTIRO	0.689421695841365	3.5
+(TOTAL score=0.689421695841365) * (availability=1) * (validity=0.01) = 0.00689421695841365
+STARS = 0
+UD_Italian-TWITTIRO	0.00689421695841365	0

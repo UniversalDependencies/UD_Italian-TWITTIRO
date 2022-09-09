@@ -2560,7 +2560,7 @@
 11	.	.	PUNCT	FS	_	5	punct	_	_
 12	Almeno	almeno	ADV	B	_	16	advmod	_	_
 13	così	così	ADV	B	_	16	advmod	_	_
-14	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
+14	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
 15	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
 17	credere	credere	VERB	V	VerbForm=Inf	16	xcomp	_	SpaceAfter=No
@@ -6005,7 +6005,7 @@
 12	!	!	PUNCT	FS	_	4	punct	_	_
 13	Se	se	SCONJ	CS	_	14	mark	_	_
 14	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
-15	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	14	obj	_	_
+15	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	14	obj	_	_
 16	diamo	dare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 17	2	2	NUM	N	NumType=Card	18	nummod	_	_
 18	dritte	dritto	ADJ	A	Gender=Fem|Number=Plur	16	obj	_	_
@@ -6104,7 +6104,7 @@
 16	a	a	ADP	E	_	18	case	_	_
 17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	#concorsonazionale	#concorsonazionale	SYM	SYM	_	15	obl	_	_
-19	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+19	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
 20	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
 21	mandare	mandare	VERB	V	VerbForm=Inf	0	root	_	_
 22	@user	@user	SYM	SYM	_	21	nsubj	_	_
@@ -6370,7 +6370,7 @@
 9	di	di	ADP	E	_	12	mark	_	_
 10-11	averle	_	_	_	_	_	_	_	_
 10	aver	avere	AUX	VA	VerbForm=Inf	12	aux	_	_
-11	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+11	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
 12	girate	girare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	xcomp	_	_
 13	tutte	tutte	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	12	dislocated	_	SpaceAfter=No
 14	.	.	PUNCT	FS	_	8	punct	_	_
@@ -6527,7 +6527,7 @@
 7	curdi	curde	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
 8	.	.	PUNCT	FS	_	1	punct	_	_
 9	Tanto	tanto	ADV	B	_	12	advmod	_	_
-10	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+10	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
 11	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
 12	rimasti	rimanere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	parataxis	_	_
 13	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
@@ -11606,7 +11606,7 @@
 12	Sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	cop	_	_
 13	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	8	parataxis	_	SpaceAfter=No
 14	,	,	PUNCT	FF	_	13	punct	_	_
-15	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+15	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
 16	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	17	obj	_	_
 17	vedono	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
 18	fiorire	fiorire	VERB	V	VerbForm=Inf	17	ccomp	_	_
@@ -11859,7 +11859,7 @@
 15	sopporta	sopportare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 16	che	che	SCONJ	CS	_	19	mark	_	_
 17	Gesù	gesù	PROPN	SP	_	19	nsubj	_	_
-18	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
+18	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
 19	rubi	rubare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
 20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	scena	scena	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
@@ -16501,7 +16501,7 @@
 7	mettere	mettere	VERB	V	VerbForm=Inf	2	advcl	_	_
 8	in	in	ADP	E	_	9	case	_	_
 9	cattedra	cattedra	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
-10	personale	personale	NOUN	A	Gender=Masc|Number=Sing	7	obj	_	_
+10	personale	personale	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
 11	mai	mai	ADV	B	_	12	advmod	_	_
 12	formato	formare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
 13	su	su	ADP	E	_	14	case	_	_
@@ -17696,7 +17696,7 @@
 18	per	per	ADP	E	_	19	mark	_	_
 19-20	fargli	_	_	_	_	_	_	_	_
 19	far	fare	VERB	V	VerbForm=Inf	16	advcl	_	_
-20	gli	il	PRON	PC	Clitic=Yes|PronType=Prs	19	iobj	_	_
+20	gli	gli	PRON	PC	Clitic=Yes|PronType=Prs	19	iobj	_	_
 21	propaganda	propaganda	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
 22	?	?	PUNCT	FS	_	16	punct	_	SpaceAfter=\n
 
@@ -19186,7 +19186,7 @@
 1	@user	@user	SYM	SYM	_	5	vocative:mention	_	_
 2	caro	caro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
 3	Presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	5	vocative	_	_
-4	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	5	iobj	_	_
+4	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	5	iobj	_	_
 5	dispiace	dispiacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6-7	illuminarci	_	_	_	_	_	_	_	_
 6	illuminar	illuminare	VERB	V	VerbForm=Inf	5	xcomp	_	_
@@ -24076,7 +24076,7 @@
 19	risme	risma	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	_
 20	di	di	ADP	E	_	21	case	_	_
 21	fogli	foglie	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
-22	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	23	obj	_	_
+22	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	23	obj	_	_
 23	portiamo	portare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
 24	ancora	ancora	ADV	B	_	23	advmod	_	_
 25	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	23	nsubj	_	_
@@ -25142,7 +25142,7 @@
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Pd	Pd	PROPN	SP	_	2	obl	_	SpaceAfter=No
 8	.	.	PUNCT	FS	_	2	punct	_	_
-9	Gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
+9	Gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
 10	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
 12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
@@ -28928,7 +28928,7 @@
 11	se	se	SCONJ	CS	_	14	mark	_	_
 12	tecnicamente	tecnicamente	ADV	B	_	14	advmod	_	_
 13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
-14	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	advcl	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	advcl	_	_
 15	è	essere	AUX	V	VerbForm=Inf	14	cop	_	SpaceAfter=No
 16	...	...	PUNCT	FB	_	4	punct	_	SpaceAfter=\n
 

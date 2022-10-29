@@ -232,7 +232,7 @@
 3	de	de	ADP	E	_	4	case	_	_
 4	#labuonascuola	#labuonascuola	SYM	SYM	_	2	nmod	_	_
 5	saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	cop	_	_
-6	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	nsubj	_	_
+6	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	nmod	_	_
 7	licenziabili	licenziabile	ADJ	A	Number=Plur	0	root	_	_
 8	dopo	dopo	ADP	E	_	12	case	_	_
 9	uno	uno	NUM	N	NumType=Card	12	nummod	_	_
@@ -3641,4 +3641,3 @@
 20	[	[	PUNCT	FB	_	21	punct	_	SpaceAfter=No
 21	@user	@user	SYM	SYM	_	6	vocative:mention	_	SpaceAfter=No
 22	]	]	PUNCT	FB	_	21	punct	_	SpaceAfter=\n
-

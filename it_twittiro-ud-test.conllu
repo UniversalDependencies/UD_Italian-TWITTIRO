@@ -222,7 +222,7 @@
 24	di	di	ADP	E	_	26	case	_	_
 25	Berlusconiana	berlusconiano	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
 26	memoria	memoria	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
-27	...	...	PUNCT	FS	_	19	punct	_	SpaceAfter=\n
+27	...	...	PUNCT	FS	_	19	punct	_	SpacesAfter=\n
 
 # sent_id = test_10
 # text = I neoassunti de #labuonascuola saranno tutti licenziabili dopo uno o due anni ma che è il #grandefratello?
@@ -244,7 +244,7 @@
 15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	#grandefratello	#grandefratello	SYM	SYM	_	7	conj	_	SpaceAfter=No
-18	?	?	PUNCT	FS	_	17	punct	_	SpaceAfter=\n
+18	?	?	PUNCT	FS	_	17	punct	_	SpacesAfter=\n
 
 # sent_id = test_11
 # text = RENZITE e sogni. Vino nuovo in otri vecchi Il documento di Renzi “ La buona scuola “ ha creato non poche ... http://t.co/S7yUAE00s4
@@ -272,7 +272,7 @@
 21	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
 22	poche	poco	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	20	obj	_	_
 23	...	...	PUNCT	FS	_	20	punct	_	_
-24	http://t.co/S7yUAE00s4	http://t.co/S7yUAE00s4	SYM	X	_	1	dep	_	SpaceAfter=\n
+24	http://t.co/S7yUAE00s4	http://t.co/S7yUAE00s4	SYM	X	_	1	dep	_	SpacesAfter=\n
 
 # sent_id = test_12
 # text = Sgarbi ricoverato d'urgenza a Modena: "Ero a mezz'ora dalla morte". Bel modo di definire Piacenza. [@user]
@@ -303,7 +303,7 @@
 23	.	.	PUNCT	FS	_	19	punct	_	_
 24	[	[	PUNCT	FB	_	25	punct	_	SpaceAfter=No
 25	@user	@user	SYM	SYM	_	2	vocative:mention	_	SpaceAfter=No
-26	]	]	PUNCT	FB	_	25	punct	_	SpaceAfter=\n
+26	]	]	PUNCT	FB	_	25	punct	_	SpacesAfter=\n
 
 # sent_id = test_13
 # text = Oggi tutti esperti di scuola su Twitter, come di nazionale durante i mondiali #labuonascuola
@@ -322,7 +322,7 @@
 12	durante	durante	ADP	E	_	14	case	_	_
 13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	mondiali	mondiali	NOUN	S	Number=Plur	11	orphan	_	_
-15	#labuonascuola	#labuonascuola	SYM	SYM	_	3	parataxis:hashtag	_	SpaceAfter=\n
+15	#labuonascuola	#labuonascuola	SYM	SYM	_	3	parataxis:hashtag	_	SpacesAfter=\n
 
 # sent_id = test_14
 # text = L'attentatore di Tunisi aveva fatto l'animatore. Quindi non era la prima volta che portava il terrore in spiaggia. [@user]
@@ -351,7 +351,7 @@
 22	.	.	PUNCT	FS	_	6	punct	_	_
 23	[	[	PUNCT	FB	_	24	punct	_	SpaceAfter=No
 24	@user	@user	SYM	SYM	_	6	vocative:mention	_	SpaceAfter=No
-25	]	]	PUNCT	FB	_	24	punct	_	SpaceAfter=\n
+25	]	]	PUNCT	FB	_	24	punct	_	SpacesAfter=\n
 
 # sent_id = test_15
 # text = Se può perdonare una madre imperfetta, perdonerà anche una scuola imperfetta, @user #labuonascuola http://t.co/P0WH883bUl
@@ -371,7 +371,7 @@
 13	,	,	PUNCT	FF	_	8	punct	_	_
 14	@user	@user	SYM	SYM	_	8	vocative:mention	_	_
 15	#labuonascuola	#labuonascuola	SYM	SYM	_	8	parataxis:hashtag	_	_
-16	http://t.co/P0WH883bUl	http://t.co/P0WH883bUl	SYM	X	_	8	dep	_	SpaceAfter=\n
+16	http://t.co/P0WH883bUl	http://t.co/P0WH883bUl	SYM	X	_	8	dep	_	SpacesAfter=\n
 
 # sent_id = test_16
 # text = #Scuola, #Renzi: Supereremo il precariato e la supplentite, ma gli scatti dei docenti saranno basati sul merito #ecchevordi? #labuonascuola
@@ -402,7 +402,7 @@
 22	merito	merito	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
 23	#ecchevordi	#ecchevordi	SYM	SYM	_	5	parataxis:hashtag	_	SpaceAfter=No
 24	?	?	PUNCT	FS	_	23	punct	_	_
-25	#labuonascuola	#labuonascuola	SYM	SYM	_	5	parataxis:hashtag	_	SpaceAfter=\n
+25	#labuonascuola	#labuonascuola	SYM	SYM	_	5	parataxis:hashtag	_	SpacesAfter=\n
 
 # sent_id = test_17
 # text = Il dossier "la buona scuola"ha la stessa grafica dei libri di Barbara Parodi. Ricette spot. #riformadellascuola #governo
@@ -430,7 +430,7 @@
 20	spot	spot	NOUN	S	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
 21	.	.	PUNCT	FS	_	19	punct	_	_
 22	#riformadellascuola	#riformadellascuola	SYM	SYM	_	8	parataxis:hashtag	_	_
-23	#governo	#governo	SYM	SYM	_	8	parataxis:hashtag	_	SpaceAfter=\n
+23	#governo	#governo	SYM	SYM	_	8	parataxis:hashtag	_	SpacesAfter=\n
 
 # sent_id = test_18
 # text = @user finalmente Gelmini d'accordo con me: dice #labuonascuola è sua riforma. Anche orologio rotto ha ragione due volte al dì
@@ -459,7 +459,7 @@
 22-23	al	_	_	_	_	_	_	_	_
 22	a	a	ADP	E	_	24	case	_	_
 23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	dì	dì	NOUN	S	Gender=Masc	18	obj	_	SpaceAfter=\n
+24	dì	dì	NOUN	S	Gender=Masc	18	obj	_	SpacesAfter=\n
 
 # sent_id = test_19
 # text = La buona scuola per "Un mondo buono". Spot da Mulino Bianco. Renzi nei panni di Banderas e gli insegnanti in ... http://t.co/YaljanN4IY
@@ -491,7 +491,7 @@
 24	insegnanti	insegnante	NOUN	S	Number=Plur	16	conj	_	_
 25	in	in	ADP	E	_	24	case	_	_
 26	...	...	PUNCT	FF	_	16	punct	_	_
-27	http://t.co/YaljanN4IY	http://t.co/YaljanN4IY	SYM	X	_	3	dep	_	SpaceAfter=\n
+27	http://t.co/YaljanN4IY	http://t.co/YaljanN4IY	SYM	X	_	3	dep	_	SpacesAfter=\n
 
 # sent_id = test_20
 # text = dei privati che finanziano le scuole statali non frega niente a nessuno/a? tutti/e a ripetere a pappagallo merito, merito ... #labuonascuola
@@ -524,7 +524,7 @@
 25	,	,	PUNCT	FF	_	24	punct	_	_
 26	merito	merito	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	_
 27	...	...	PUNCT	FS	_	26	punct	_	_
-28	#labuonascuola	#labuonascuola	SYM	SYM	_	10	dep	_	SpaceAfter=\n
+28	#labuonascuola	#labuonascuola	SYM	SYM	_	10	dep	_	SpacesAfter=\n
 
 # sent_id = test_21
 # text = Divide et impera: la buona scuola di Renzi http://t.co/DqWHf7qwHS
@@ -538,7 +538,7 @@
 7	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	1	parataxis	_	_
 8	di	di	ADP	E	_	9	case	_	_
 9	Renzi	Renzi	PROPN	SP	_	7	nmod	_	_
-10	http://t.co/DqWHf7qwHS	http://t.co/DqWHf7qwHS	SYM	X	_	1	dep	_	SpaceAfter=\n
+10	http://t.co/DqWHf7qwHS	http://t.co/DqWHf7qwHS	SYM	X	_	1	dep	_	SpacesAfter=\n
 
 # sent_id = test_22
 # text = Greci vicini al tracollo finanziario. Come tutti quelli che hanno fatto filosofia. [@user]
@@ -561,7 +561,7 @@
 15	.	.	PUNCT	FS	_	10	punct	_	_
 16	[	[	PUNCT	FB	_	17	punct	_	SpaceAfter=No
 17	@user	@user	SYM	SYM	_	2	vocative:mention	_	SpaceAfter=No
-18	]	]	PUNCT	FB	_	17	punct	_	SpaceAfter=\n
+18	]	]	PUNCT	FB	_	17	punct	_	SpacesAfter=\n
 
 # sent_id = test_23
 # text = #labuonascuola Dopo aver assassinato l'inglese, #Renzi dichiara guerra alla lingua italiana http://t.co/7Dwq49zXtj
@@ -581,7 +581,7 @@
 12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
 14	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
-15	http://t.co/7Dwq49zXtj	http://t.co/7Dwq49zXtj	SYM	X	_	9	dep	_	SpaceAfter=\n
+15	http://t.co/7Dwq49zXtj	http://t.co/7Dwq49zXtj	SYM	X	_	9	dep	_	SpacesAfter=\n
 
 # sent_id = test_24
 # text = Visita alle Ardeatine, discorso di otto parole, messa all'alba e selfie con le suore. Al confronto Napolitano era Balotelli. [@user]
@@ -618,7 +618,7 @@
 27	.	.	PUNCT	FS	_	26	punct	_	_
 28	[	[	PUNCT	FB	_	29	punct	_	SpaceAfter=No
 29	@user	@user	SYM	SYM	_	1	vocative:mention	_	SpaceAfter=No
-30	]	]	PUNCT	FB	_	29	punct	_	SpaceAfter=\n
+30	]	]	PUNCT	FB	_	29	punct	_	SpacesAfter=\n
 
 # sent_id = test_25
 # text = Dal Buon Governo di #Berlusconi a #labuonascuola di Renzi passando dall'Italia giusta di Bersani. #Autocelebrazioni
@@ -643,7 +643,7 @@
 16	di	di	ADP	E	_	17	case	_	_
 17	Bersani	Bersani	PROPN	SP	_	14	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	FS	_	11	punct	_	_
-19	#Autocelebrazioni	#Autocelebrazioni	SYM	SYM	_	11	parataxis:hashtag	_	SpaceAfter=\n
+19	#Autocelebrazioni	#Autocelebrazioni	SYM	SYM	_	11	parataxis:hashtag	_	SpacesAfter=\n
 
 # sent_id = test_26
 # text = Scarcerato Fabrizio Corona. Grazie, India! [@user]
@@ -658,7 +658,7 @@
 8	!	!	PUNCT	FS	_	7	punct	_	_
 9	[	[	PUNCT	FB	_	10	punct	_	SpaceAfter=No
 10	@user	@user	SYM	SYM	_	1	vocative:mention	_	SpaceAfter=No
-11	]	]	PUNCT	FB	_	10	punct	_	SpaceAfter=\n
+11	]	]	PUNCT	FB	_	10	punct	_	SpacesAfter=\n
 
 # sent_id = test_27
 # text = Mario Monti regalaci un sogno un Italia normale cornetto e caffè al Bar Dello Sport Grazie ... http://t.co/JHwZ11QJ
@@ -795,7 +795,7 @@
 8	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	obl	_	SpaceAfter=No
 9	!	!	PUNCT	FS	_	6	punct	_	_
 10	http://t.co/6aD8uussI9	http://t.co/6aD8uussI9	SYM	X	_	6	dep	_	_
-11	http://t.co/AKl2Td16TB	http://t.co/AKl2Td16TB	SYM	X	_	6	dep	_	SpaceAfter=\n
+11	http://t.co/AKl2Td16TB	http://t.co/AKl2Td16TB	SYM	X	_	6	dep	_	SpacesAfter=\n
 
 # sent_id = test_32
 # text = #labuonascuola @user #istitutosereni per fortuna che la formazione è la priorità: il #tfaII che fine ha fatto?
@@ -818,7 +818,7 @@
 16	fine	fine	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
 17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 18	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	SpaceAfter=No
-19	?	?	PUNCT	FS	_	18	punct	_	SpaceAfter=\n
+19	?	?	PUNCT	FS	_	18	punct	_	SpacesAfter=\n
 
 # sent_id = test_33
 # text = Ma guardiamo i lati positivi: Paletta ha concluso il mondiale con il 100% di vittorie. [CONTINUA su http://t.co/8REeGqIhCK]
@@ -845,7 +845,7 @@
 20	CONTINUA	Continua	NOUN	S	Gender=Fem|Number=Sing	9	parataxis	_	_
 21	su	su	ADP	E	_	22	case	_	_
 22	http://t.co/8REeGqIhCK	http://t.co/8REeGqIhCK	SYM	X	_	20	nmod	_	SpaceAfter=No
-23	]	]	PUNCT	FB	_	20	punct	_	SpaceAfter=\n
+23	]	]	PUNCT	FB	_	20	punct	_	SpacesAfter=\n
 
 # sent_id = test_34
 # text = Cannavaro indagato per frode fiscale. Male che vada ha suo fratello Paolo. [@user]
@@ -866,7 +866,7 @@
 14	.	.	PUNCT	FS	_	10	punct	_	_
 15	[	[	PUNCT	FB	_	16	punct	_	SpaceAfter=No
 16	@user	@user	SYM	SYM	_	2	vocative:mention	_	SpaceAfter=No
-17	]	]	PUNCT	FB	_	16	punct	_	SpaceAfter=\n
+17	]	]	PUNCT	FB	_	16	punct	_	SpacesAfter=\n
 
 # sent_id = test_35
 # text = Prof potrei andare in bagno? ' ' non hai bisogno di andare al bagno! ' OH, ALLORA VIENI CHE TI PISCIO IN TESTA VISTO CHE NON NE HO BISOGNO.
@@ -932,7 +932,7 @@
 20	[	[	PUNCT	FB	_	21	punct	_	SpaceAfter=No
 21	CONTINUA	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 22	http://t.co/oDPUtxkMK3	http://t.co/oDPUtxkMK3	SYM	X	_	21	dep	_	SpaceAfter=No
-23	]	]	PUNCT	FB	_	21	punct	_	SpaceAfter=\n
+23	]	]	PUNCT	FB	_	21	punct	_	SpacesAfter=\n
 
 # sent_id = test_37
 # text = Per chi ancora non lo sapesse è in onda online il #RenziShow. Il più grande spettacolo mai visto. #passodopopasso #Scuola #labuonascuola
@@ -959,7 +959,7 @@
 20	.	.	PUNCT	FS	_	17	punct	_	_
 21	#passodopopasso	#passodopopasso	SYM	SYM	_	9	parataxis:hashtag	_	_
 22	#Scuola	#Scuola	SYM	SYM	_	9	parataxis:hashtag	_	_
-23	#labuonascuola	#labuonascuola	SYM	SYM	_	9	parataxis:hashtag	_	SpaceAfter=\n
+23	#labuonascuola	#labuonascuola	SYM	SYM	_	9	parataxis:hashtag	_	SpacesAfter=\n
 
 # sent_id = test_38
 # text = Docenti formati e vocati #tfaordinario finiranno a fare gli schiavi sottopagati nelle private. Bella marchetta! #labuonascuola @user
@@ -984,7 +984,7 @@
 17	marchetta	marchetta	NOUN	S	Gender=Fem|Number=Sing	6	parataxis	_	SpaceAfter=No
 18	!	!	PUNCT	FS	_	17	punct	_	_
 19	#labuonascuola	#labuonascuola	SYM	SYM	_	6	parataxis:hashtag	_	_
-20	@user	@user	SYM	SYM	_	6	vocative:mention	_	SpaceAfter=\n
+20	@user	@user	SYM	SYM	_	6	vocative:mention	_	SpacesAfter=\n
 
 # sent_id = test_39
 # text = Simona Ventura: “Mai stata a letto con nessuno per lavorare in tv”. Allora è davvero grave. [CONTINUA su http://t.co/oDPUtx2DvV]
@@ -1014,7 +1014,7 @@
 23	CONTINUA	continuare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	20	parataxis	_	_
 24	su	su	ADP	E	_	25	case	_	_
 25	http://t.co/oDPUtx2DvV	http://t.co/oDPUtx2DvV	SYM	X	_	23	obl	_	SpaceAfter=No
-26	]	]	PUNCT	FB	_	23	punct	_	SpaceAfter=\n
+26	]	]	PUNCT	FB	_	23	punct	_	SpacesAfter=\n
 
 # sent_id = test_40
 # text = @user i + vivi complimenti a1 paese incapace di portare avanti 1 concorso X aspiranti docenti ! La buona scuola ? Lo schifo di scuola!! #tfa2014
@@ -1045,7 +1045,7 @@
 24	di	di	ADP	E	_	25	case	_	_
 25	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
 26	!!	!!	PUNCT	FS	_	23	punct	_	_
-27	#tfa2014	#tfa2014	SYM	SYM	_	5	parataxis:hashtag	_	SpaceAfter=\n
+27	#tfa2014	#tfa2014	SYM	SYM	_	5	parataxis:hashtag	_	SpacesAfter=\n
 
 # sent_id = test_41
 # text = @user Solo sentir parlare di “ buona scuola “ mi fa ridere a crepapelle, non posso resistere. AHAHAHAHAHAHAHAHAHAHAHAH ...
@@ -1070,7 +1070,7 @@
 18	resistere	resistere	VERB	V	VerbForm=Inf	11	conj	_	SpaceAfter=No
 19	.	.	PUNCT	FS	_	18	punct	_	_
 20	AHAHAHAHAHAHAHAHAHAHAHAH	AHAHAHAHAHAHAHAHAHAHAHAH	INTJ	I	_	11	discourse	_	_
-21	...	...	PUNCT	FS	_	11	punct	_	SpaceAfter=\n
+21	...	...	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
 
 # sent_id = test_42
 # text = @user1 @user2 @user3 giusto prima distruggiamo la scuola pubblica #labuonascuola #aricambiaverso
@@ -1085,7 +1085,7 @@
 8	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
 9	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
 10	#labuonascuola	#labuonascuola	SYM	SYM	_	6	parataxis:hashtag	_	_
-11	#aricambiaverso	#aricambiaverso	ADJ	A	Gender=Masc|Number=Sing	6	parataxis:hashtag	_	SpaceAfter=\n
+11	#aricambiaverso	#aricambiaverso	ADJ	A	Gender=Masc|Number=Sing	6	parataxis:hashtag	_	SpacesAfter=\n
 
 # sent_id = test_43
 # text = @user: comunque tra poco Mario Monti ci farà un culo come una capanna. Mario Capanna Monti (magari)
@@ -1260,7 +1260,7 @@
 13	pazza	pazzo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
 14	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
 15	scolastica	scolastico	ADJ	A	Gender=Fem|Number=Sing	14	nmod	_	_
-16	http://t.co/Bsbn08joEj	http://t.co/Bsbn08joEj	SYM	X	_	3	dep	_	SpaceAfter=\n
+16	http://t.co/Bsbn08joEj	http://t.co/Bsbn08joEj	SYM	X	_	3	dep	_	SpacesAfter=\n
 
 # sent_id = test_51
 # text = Salvini: “Il blocco del traffico è una cazzata”. A meno che non riguardi il Mediterraneo. [CONTINUA su https://t.co/oDPUtx2DvV]
@@ -1291,7 +1291,7 @@
 23	CONTINUA	continuare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
 24	su	su	ADP	E	_	25	case	_	_
 25	https://t.co/oDPUtx2DvV	https://t.co/oDPUtx2DvV	SYM	X	_	23	obl	_	SpaceAfter=No
-26	]	]	PUNCT	FB	_	23	punct	_	SpaceAfter=\n
+26	]	]	PUNCT	FB	_	23	punct	_	SpacesAfter=\n
 
 # sent_id = test_52
 # text = Bergoglio presenta il suo libro: "Nessun peccato è troppo grande per Dio". E i cardinali dietro a battersi il cinque. [@user]
@@ -1325,7 +1325,7 @@
 26	.	.	PUNCT	FS	_	19	punct	_	_
 27	[	[	PUNCT	FB	_	28	punct	_	SpaceAfter=No
 28	@user	@user	SYM	SYM	_	2	vocative:mention	_	SpaceAfter=No
-29	]	]	PUNCT	FB	_	28	punct	_	SpaceAfter=\n
+29	]	]	PUNCT	FB	_	28	punct	_	SpacesAfter=\n
 
 # sent_id = test_53
 # text = Ferrara, Gasparri e Salvini dichiarano guerra all’Isis. Ok, andate. [CONTINUA su http://t.co/oDPUtxTqU7]
@@ -1350,7 +1350,7 @@
 17	CONTINUA	continuare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
 18	su	su	ADP	E	_	19	case	_	_
 19	http://t.co/oDPUtxTqU7	http://t.co/oDPUtxTqU7	SYM	X	_	17	obl	_	SpaceAfter=No
-20	]	]	PUNCT	FB	_	17	punct	_	SpaceAfter=\n
+20	]	]	PUNCT	FB	_	17	punct	_	SpacesAfter=\n
 
 # sent_id = test_54
 # text = forse i maya non previdero la fine del mondo ma intendevano la fine dell'Italia #jobsact #lavoro #labuonascuola #Senato
@@ -1377,7 +1377,7 @@
 18	#jobsact	#jobsact	SYM	SYM	_	5	parataxis:hashtag	_	_
 19	#lavoro	#lavoro	SYM	SYM	_	5	parataxis:hashtag	_	_
 20	#labuonascuola	#labuonascuola	SYM	SYM	_	5	parataxis:hashtag	_	_
-21	#Senato	#Senato	SYM	SYM	_	5	parataxis:hashtag	_	SpaceAfter=\n
+21	#Senato	#Senato	SYM	SYM	_	5	parataxis:hashtag	_	SpacesAfter=\n
 
 # sent_id = test_55
 # text = Dolcetto scherzetto? #Halloween #labuonascuola #Roma http://t.co/MGCEEBgzwx
@@ -1388,7 +1388,7 @@
 4	#Halloween	#Halloween	SYM	SYM	_	1	parataxis:hashtag	_	_
 5	#labuonascuola	#labuonascuola	SYM	SYM	_	1	parataxis:hashtag	_	_
 6	#Roma	#Roma	SYM	SYM	_	1	parataxis:hashtag	_	_
-7	http://t.co/MGCEEBgzwx	http://t.co/MGCEEBgzwx	SYM	X	_	1	dep	_	SpaceAfter=\n
+7	http://t.co/MGCEEBgzwx	http://t.co/MGCEEBgzwx	SYM	X	_	1	dep	_	SpacesAfter=\n
 
 # sent_id = test_56
 # text = (...) mobilità di tutti i docenti pag 63 #labuonascuola #Renzi ( Perciò se ve la pigliate in quel posto c'è pure scritto ... )
@@ -1419,7 +1419,7 @@
 24	pure	pure	ADV	B	_	25	advmod	_	_
 25	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
 26	...	...	PUNCT	FS	_	25	punct	_	_
-27	)	)	PUNCT	FB	_	25	punct	_	SpaceAfter=\n
+27	)	)	PUNCT	FB	_	25	punct	_	SpacesAfter=\n
 
 # sent_id = test_57
 # text = Chi è entrato nel cellulare di Jennifer Lawrence potrebbe entrare anche nel tuo. E troverebbe sempre le foto della Lawrence. [@user]
@@ -1454,7 +1454,7 @@
 25	.	.	PUNCT	FS	_	18	punct	_	_
 26	[	[	PUNCT	FB	_	27	punct	_	SpaceAfter=No
 27	@user	@user	SYM	SYM	_	11	vocative:mention	_	SpaceAfter=No
-28	]	]	PUNCT	FB	_	27	punct	_	SpaceAfter=\n
+28	]	]	PUNCT	FB	_	27	punct	_	SpacesAfter=\n
 
 # sent_id = test_58
 # text = Berlusconi: “Siamo tornati protagonisti“. Stava guardando un servizio sull'ebola. [@user]
@@ -1478,7 +1478,7 @@
 16	.	.	PUNCT	FS	_	5	punct	_	_
 17	[	[	PUNCT	FB	_	18	punct	_	SpaceAfter=No
 18	@user	@user	SYM	SYM	_	5	vocative:mention	_	SpaceAfter=No
-19	]	]	PUNCT	FB	_	18	punct	_	SpaceAfter=\n
+19	]	]	PUNCT	FB	_	18	punct	_	SpacesAfter=\n
 
 # sent_id = test_59
 # text = Alfano: “Stiamo per prendere Messina Denaro“. È il primo colpo del mercato invernale. [@user]
@@ -1505,7 +1505,7 @@
 19	.	.	PUNCT	FS	_	14	punct	_	_
 20	[	[	PUNCT	FB	_	21	punct	_	SpaceAfter=No
 21	@user	@user	SYM	SYM	_	4	vocative:mention	_	SpaceAfter=No
-22	]	]	PUNCT	FB	_	21	punct	_	SpaceAfter=\n
+22	]	]	PUNCT	FB	_	21	punct	_	SpacesAfter=\n
 
 # sent_id = test_60
 # text = Digitalizzazione scuola: 3% loading #labuonascuola https://t.co/C8n2y80dPJ
@@ -1517,7 +1517,7 @@
 5	%	%	SYM	SYM	_	6	nmod	_	_
 6	loading	loading	X	SW	_	1	parataxis	_	_
 7	#labuonascuola	#labuonascuola	SYM	SYM	_	6	parataxis:hashtag	_	_
-8	https://t.co/C8n2y80dPJ	https://t.co/C8n2y80dPJ	SYM	X	_	1	dep	_	SpaceAfter=\n
+8	https://t.co/C8n2y80dPJ	https://t.co/C8n2y80dPJ	SYM	X	_	1	dep	_	SpacesAfter=\n
 
 # sent_id = test_61
 # text = #la7 ma perche' Mario Monti non fa il premier? Che persona competente e per bene!
@@ -1667,7 +1667,7 @@
 6	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	cop	_	_
 7	così	così	ADV	B	_	0	root	_	_
 8	:	:	PUNCT	FC	_	7	punct	_	_
-9	-	_	PUNCT	FB	_	10	punct	_	_
+9	-		PUNCT	FB	_	10	punct	_	_
 10	Elementari	elementare	ADJ	A	Number=Plur	7	parataxis:appos	_	_
 11	fino	fino	ADV	B	_	15	case	_	_
 12-13	ai	_	_	_	_	_	_	_	_
@@ -1691,7 +1691,7 @@
 27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
 28	40	40	NUM	N	NumType=Card	29	nummod	_	_
 29	anni	anno	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	_
-30	#labuonascuola	#labuonascuola	SYM	SYM	_	10	parataxis:hashtag	_	SpaceAfter=\n
+30	#labuonascuola	#labuonascuola	SYM	SYM	_	10	parataxis:hashtag	_	SpacesAfter=\n
 
 # sent_id = test_67
 # text = Matteo, se vuoi un colloquio chiarificatore sono disponibile nel mio ufficio ad Hogwarts tutti i mercoledì @user #labuonascuola
@@ -1716,7 +1716,7 @@
 17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 18	mercoledì	mercoledì	NOUN	S	Gender=Masc	9	obl	_	_
 19	@user	@user	SYM	SYM	_	9	vocative:mention	_	_
-20	#labuonascuola	#labuonascuola	SYM	SYM	_	9	parataxis:hashtag	_	SpaceAfter=\n
+20	#labuonascuola	#labuonascuola	SYM	SYM	_	9	parataxis:hashtag	_	SpacesAfter=\n
 
 # sent_id = test_68
 # text = Bertone è il tipo che porta le pantofole tenerone di Cip e Ciop e poi scopri che sono le loro vere teste. [@user]
@@ -1746,7 +1746,7 @@
 23	.	.	PUNCT	FS	_	16	punct	_	_
 24	[	[	PUNCT	FB	_	25	punct	_	SpaceAfter=No
 25	@user	@user	SYM	SYM	_	4	vocative:mention	_	SpaceAfter=No
-26	]	]	PUNCT	FB	_	25	punct	_	SpaceAfter=\n
+26	]	]	PUNCT	FB	_	25	punct	_	SpacesAfter=\n
 
 # sent_id = test_69
 # text = Scajola sapeva che Biagi era in pericolo . Ma al governo serviva morto . [ @user ]
@@ -1799,7 +1799,7 @@
 22	615	615	NUM	N	NumType=Card	23	nummod	_	_
 23	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	_
 24	...	...	PUNCT	FF	_	21	punct	_	_
-25	http://t.co/zgSyhmSqcr	http://t.co/zgSyhmSqcr	SYM	X	_	9	dep	_	SpaceAfter=\n
+25	http://t.co/zgSyhmSqcr	http://t.co/zgSyhmSqcr	SYM	X	_	9	dep	_	SpacesAfter=\n
 
 # sent_id = test_71
 # text = Le forze dell'ordine a casa di Alemanno. Per una volta avrebbe preferito i rom. [@user]
@@ -1825,7 +1825,7 @@
 18	.	.	PUNCT	FS	_	15	punct	_	_
 19	[	[	PUNCT	FB	_	20	punct	_	SpaceAfter=No
 20	@user	@user	SYM	SYM	_	15	vocative:mention	_	SpaceAfter=No
-21	]	]	PUNCT	FB	_	20	punct	_	SpaceAfter=\n
+21	]	]	PUNCT	FB	_	20	punct	_	SpacesAfter=\n
 
 # sent_id = test_72
 # text = Agnese Renzi tampona un camion. Urlando "Matteo è grande!" [@user]
@@ -1845,7 +1845,7 @@
 13	"	"	PUNCT	FB	_	11	punct	_	_
 14	[	[	PUNCT	FB	_	15	punct	_	SpaceAfter=No
 15	@user	@user	SYM	SYM	_	3	vocative:mention	_	SpaceAfter=No
-16	]	]	PUNCT	FB	_	15	punct	_	SpaceAfter=\n
+16	]	]	PUNCT	FB	_	15	punct	_	SpacesAfter=\n
 
 # sent_id = test_73
 # text = ma scusate quanta incoerenza e ambiguità ci possono stare in uno che si chiama mario monti?
@@ -2109,7 +2109,7 @@
 17	di	di	ADP	E	_	19	case	_	_
 18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	governo	governo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
-20	Renzi	Renzi	PROPN	SP	_	19	nmod	_	SpaceAfter=\n
+20	Renzi	Renzi	PROPN	SP	_	19	nmod	_	SpacesAfter=\n
 
 # sent_id = test_84
 # text = Che bello, no? Ah no? Non è la buona scuola? Ah no? E' solo la Legge di Stabilità. Il meglio deve ancora venire. http://t.co/hd9T6Z0BIL
@@ -2144,7 +2144,7 @@
 28	ancora	ancora	ADV	B	_	29	advmod	_	_
 29	venire	venire	VERB	V	VerbForm=Inf	2	parataxis	_	SpaceAfter=No
 30	.	.	PUNCT	FS	_	29	punct	_	_
-31	http://t.co/hd9T6Z0BIL	http://t.co/hd9T6Z0BIL	SYM	X	_	2	dep	_	SpaceAfter=\n
+31	http://t.co/hd9T6Z0BIL	http://t.co/hd9T6Z0BIL	SYM	X	_	2	dep	_	SpacesAfter=\n
 
 # sent_id = test_85
 # text = @user1 @user2 Dite : " Tutti i docenti di cui la buona scuola ha bisogno" e come capirete chi la rende buona e chi no? Simpatia?
@@ -2177,7 +2177,7 @@
 26	no	no	INTJ	I	_	25	orphan	_	SpaceAfter=No
 27	?	?	PUNCT	FS	_	19	punct	_	_
 28	Simpatia	simpatia	PROPN	SP	_	19	parataxis	_	SpaceAfter=No
-29	?	?	PUNCT	FS	_	28	punct	_	SpaceAfter=\n
+29	?	?	PUNCT	FS	_	28	punct	_	SpacesAfter=\n
 
 # sent_id = test_86
 # text = @user é ovvio che io è lei abbiamo una visione opposta della scuola. Una domanda. Per quanto tempo ha insegnato lei. #labuonascuola
@@ -2208,7 +2208,7 @@
 23	insegnato	insegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	_
 24	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	23	nsubj	_	SpaceAfter=No
 25	.	.	PUNCT	FS	_	23	punct	_	_
-26	#labuonascuola	#labuonascuola	SYM	SYM	_	3	parataxis:hashtag	_	SpaceAfter=\n
+26	#labuonascuola	#labuonascuola	SYM	SYM	_	3	parataxis:hashtag	_	SpacesAfter=\n
 
 # sent_id = test_87
 # text = @user ma quale buona scuola, se avete fatto una figuraccia di dimensioni COSMICHE (eufemismo) al concorso di medicina?
@@ -2236,7 +2236,7 @@
 20	concorso	concorso	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
 21	di	di	ADP	E	_	22	case	_	_
 22	medicina	medicina	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
-23	?	?	PUNCT	FS	_	5	punct	_	SpaceAfter=\n
+23	?	?	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
 
 # sent_id = test_88
 # text = Tra i motivi dell'inefficienza della scuola italiana, le classi pollaio, ma va?! http://t.co/uPLyp7Phhy #labuonascuola #scuolapubblica #m5s
@@ -2264,7 +2264,7 @@
 19	http://t.co/uPLyp7Phhy	http://t.co/uPLyp7Phhy	SYM	X	_	13	dep	_	_
 20	#labuonascuola	#labuonascuola	SYM	SYM	_	13	parataxis:hashtag	_	_
 21	#scuolapubblica	#scuolapubblica	SYM	SYM	_	13	parataxis:hashtag	_	_
-22	#m5s	#m5s	SYM	SYM	_	13	parataxis:hashtag	_	SpaceAfter=\n
+22	#m5s	#m5s	SYM	SYM	_	13	parataxis:hashtag	_	SpacesAfter=\n
 
 # sent_id = test_89
 # text = #labuonascuola @user1 @user2 i prof che esortano/costringono i ragazzi a non fare gli invalsi?
@@ -2285,7 +2285,7 @@
 14	fare	fare	VERB	V	VerbForm=Inf	9	advcl	_	_
 15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	invalsi	invalsi	PROPN	SP	_	14	obj	_	SpaceAfter=No
-17	?	?	PUNCT	FS	_	9	punct	_	SpaceAfter=\n
+17	?	?	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
 
 # sent_id = test_90
 # text = @user che poi se vuoi #labuonascuola perché ho ancora professori che non sanno insegnare?
@@ -2304,7 +2304,7 @@
 12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
 13	sanno	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 14	insegnare	insegnare	VERB	V	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
-15	?	?	PUNCT	FS	_	13	punct	_	SpaceAfter=\n
+15	?	?	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
 
 # sent_id = test_91
 # text = Legge di stabilità. La scuola taglia più di quanto riceve. Bravi i burocrati del miur e #renzi. La fate così #labuonascuola ?
@@ -2335,7 +2335,7 @@
 23	fate	fare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
 24	così	così	ADV	B	_	23	advmod	_	_
 25	#labuonascuola	#labuonascuola	SYM	SYM	_	23	obj	_	_
-26	?	?	PUNCT	FS	_	23	punct	_	SpaceAfter=\n
+26	?	?	PUNCT	FS	_	23	punct	_	SpacesAfter=\n
 
 # sent_id = test_92
 # text = Ma i punti de #labuonascuola sono riferiti anche a quella pubblica? #perdire
@@ -2352,7 +2352,7 @@
 10	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	7	obl	_	_
 11	pubblica	pubblica	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
 12	?	?	PUNCT	FS	_	7	punct	_	_
-13	#perdire	#perdire	SYM	SYM	_	7	parataxis:hashtag	_	SpaceAfter=\n
+13	#perdire	#perdire	SYM	SYM	_	7	parataxis:hashtag	_	SpacesAfter=\n
 
 # sent_id = test_93
 # text = Facciamo che "Il Papa prega per la pace" lo diamo per scontato ed evitiamo di ricordarlo in ogni tg? [@user]
@@ -2383,7 +2383,7 @@
 23	?	?	PUNCT	FS	_	16	punct	_	_
 24	[	[	PUNCT	FB	_	25	punct	_	SpaceAfter=No
 25	@user	@user	SYM	SYM	_	1	vocative:mention	_	SpaceAfter=No
-26	]	]	PUNCT	FB	_	25	punct	_	SpaceAfter=\n
+26	]	]	PUNCT	FB	_	25	punct	_	SpacesAfter=\n
 
 # sent_id = test_94
 # text = Ma la "buona scuola" cambierà tutto. Vero, Renzie? Ah, se le leggi si facessero a suon di linee guida...... http://t.co/bdqOXO1D7w
@@ -2729,7 +2729,7 @@
 30	.	.	PUNCT	FS	_	27	punct	_	_
 31	[	[	PUNCT	FB	_	32	punct	_	SpaceAfter=No
 32	@user	@user	SYM	SYM	_	5	vocative:mention	_	SpaceAfter=No
-33	]	]	PUNCT	FB	_	32	punct	_	SpaceAfter=\n
+33	]	]	PUNCT	FB	_	32	punct	_	SpacesAfter=\n
 
 # sent_id = test_106
 # text = Paziente mummificato ritrovato in ospedale dopo tre anni. “Come andiamo oggi?“ [xanax]
@@ -2749,7 +2749,7 @@
 13	oggi?“	oggi?“	PUNCT	FB	_	12	punct	_	_
 14	[	[	PUNCT	FB	_	15	punct	_	SpaceAfter=No
 15	xanax	xanax	SYM	SYM	_	3	parataxis	_	SpaceAfter=No
-16	]	]	PUNCT	FB	_	15	punct	_	SpaceAfter=\n
+16	]	]	PUNCT	FB	_	15	punct	_	SpacesAfter=\n
 
 # sent_id = test_107
 # text = @user Leggo che lei è Ministro della PUBBLICA ISTRUZIONE, come mai ha deliberato 230 mln per la PRIVATA ISTRUZIONE? #labuonascuola
@@ -2777,7 +2777,7 @@
 20	PRIVATA	privata	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
 21	ISTRUZIONE	Istruzione	NOUN	S	Gender=Fem|Number=Sing	20	compound	_	SpaceAfter=No
 22	?	?	PUNCT	FS	_	15	punct	_	_
-23	#labuonascuola	#labuonascuola	SYM	SYM	_	15	parataxis:hashtag	_	SpaceAfter=\n
+23	#labuonascuola	#labuonascuola	SYM	SYM	_	15	parataxis:hashtag	_	SpacesAfter=\n
 
 # sent_id = test_108
 # text = Thohir esonera Mazzarri e chiama Mancini. “ Conosci mica un buon allenatore? “ [@user]
@@ -2799,7 +2799,7 @@
 15	“	“	PUNCT	FB	_	9	punct	_	_
 16	[	[	PUNCT	FB	_	17	punct	_	SpaceAfter=No
 17	@user	@user	SYM	SYM	_	2	vocative:mention	_	SpaceAfter=No
-18	]	]	PUNCT	FB	_	17	punct	_	SpaceAfter=\n
+18	]	]	PUNCT	FB	_	17	punct	_	SpacesAfter=\n
 
 # sent_id = test_109
 # text = Legge elettorale, il Pd si divide. Non vedono l'ora di provarla. [@user]
@@ -2823,7 +2823,7 @@
 16	.	.	PUNCT	FS	_	10	punct	_	_
 17	[	[	PUNCT	FB	_	18	punct	_	SpaceAfter=No
 18	@user	@user	SYM	SYM	_	10	vocative:mention	_	SpaceAfter=No
-19	]	]	PUNCT	FB	_	18	punct	_	SpaceAfter=\n
+19	]	]	PUNCT	FB	_	18	punct	_	SpacesAfter=\n
 
 # sent_id = test_110
 # text = La "cattiva" #scuola formò centinaia di #cervelliinfuga. Infatti #renzi è rimasto qui ... #labuonascuola
@@ -2844,7 +2844,7 @@
 14	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	parataxis	_	_
 15	qui	qui	ADV	B	_	14	advmod	_	_
 16	...	...	PUNCT	FF	_	14	punct	_	_
-17	#labuonascuola	#labuonascuola	SYM	SYM	_	6	parataxis:hashtag	_	SpaceAfter=\n
+17	#labuonascuola	#labuonascuola	SYM	SYM	_	6	parataxis:hashtag	_	SpacesAfter=\n
 
 # sent_id = test_111
 # text = Eviva la scuola e l'università di tutti e per tutti. Quella che sforna i cervelli che poi però vanno via. #labuonascuola
@@ -2872,7 +2872,7 @@
 21	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
 22	via	via	ADV	B	_	21	advmod	_	SpaceAfter=No
 23	.	.	PUNCT	FS	_	21	punct	_	_
-24	#labuonascuola	#labuonascuola	SYM	SYM	_	3	parataxis:hashtag	_	SpaceAfter=\n
+24	#labuonascuola	#labuonascuola	SYM	SYM	_	3	parataxis:hashtag	_	SpacesAfter=\n
 
 # sent_id = test_112
 # text = @user1 @user2 http://t.co/MAgsTzdXX8 #labuonascuola la riforma con tanto di merito e talento è di destra tg. @user3
@@ -2894,7 +2894,7 @@
 15	destra	destra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
 16	tg	telegiornale	NOUN	S	Gender=Masc|Number=Sing	15	dep	_	SpaceAfter=No
 17	.	.	PUNCT	FS	_	15	punct	_	_
-18	@user3	@user3	SYM	SYM	_	15	vocative	_	SpaceAfter=\n
+18	@user3	@user3	SYM	SYM	_	15	vocative	_	SpacesAfter=\n
 
 # sent_id = test_113
 # text = @user1 @user2 mia nipote 5 anni vorrebbe contribuire riforma scuola. come deve fare? Fra 3 mesi nasce altro nipote, lui può?
@@ -2923,7 +2923,7 @@
 22	,	,	PUNCT	FF	_	21	punct	_	_
 23	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	orphan	_	_
 24	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
-25	?	?	PUNCT	FS	_	24	punct	_	SpaceAfter=\n
+25	?	?	PUNCT	FS	_	24	punct	_	SpacesAfter=\n
 
 # sent_id = test_114
 # text = Dirotta un aereo per la ex moglie. "Ti avevo detto un elicottero!" [@user]
@@ -2946,7 +2946,7 @@
 16	"	"	PUNCT	FB	_	12	punct	_	_
 17	[	[	PUNCT	FB	_	18	punct	_	SpaceAfter=No
 18	@user	@user	SYM	SYM	_	1	vocative:mention	_	SpaceAfter=No
-19	]	]	PUNCT	FB	_	18	punct	_	SpaceAfter=\n
+19	]	]	PUNCT	FB	_	18	punct	_	SpacesAfter=\n
 
 # sent_id = test_115
 # text = Vai Mattè, che dopo aver fatto #labuonascuola ti ci rimandiamo anche a te! @user http://t.co/9o6tbYvsRg
@@ -2967,7 +2967,7 @@
 14	te	te	PRON	PE	Number=Sing|Person=2|PronType=Prs	11	dislocated	_	SpaceAfter=No
 15	!	!	PUNCT	FS	_	11	punct	_	_
 16	@user	@user	SYM	SYM	_	1	vocative:mention	_	_
-17	http://t.co/9o6tbYvsRg	http://t.co/9o6tbYvsRg	SYM	X	_	1	dep	_	SpaceAfter=\n
+17	http://t.co/9o6tbYvsRg	http://t.co/9o6tbYvsRg	SYM	X	_	1	dep	_	SpacesAfter=\n
 
 # sent_id = test_116
 # text = Pare che #ForzaItalia sia pronta a sostenere anche #labuonascuola di #Renzi. Ormai sono in maggioranza. #Roma #Scuola
@@ -2990,7 +2990,7 @@
 16	maggioranza	maggioranza	NOUN	S	Gender=Fem|Number=Sing	1	parataxis	_	SpaceAfter=No
 17	.	.	PUNCT	FS	_	16	punct	_	_
 18	#Roma	#Roma	SYM	SYM	_	1	parataxis:hashtag	_	_
-19	#Scuola	#Scuola	SYM	SYM	_	1	parataxis:hashtag	_	SpaceAfter=\n
+19	#Scuola	#Scuola	SYM	SYM	_	1	parataxis:hashtag	_	SpacesAfter=\n
 
 # sent_id = test_117
 # text = Pubblicata la classifica mondiale della libertà di stampa. Non possiamo dirvi altro. [giga]
@@ -3015,7 +3015,7 @@
 16	.	.	PUNCT	FS	_	13	punct	_	_
 17	[	[	PUNCT	FB	_	18	punct	_	SpaceAfter=No
 18	giga	giga	NOUN	S	Gender=Fem|Number=Sing	13	parataxis	_	SpaceAfter=No
-19	]	]	PUNCT	FB	_	18	punct	_	SpaceAfter=\n
+19	]	]	PUNCT	FB	_	18	punct	_	SpacesAfter=\n
 
 # sent_id = test_118
 # text = La buona scuola « #PASSODOPOPASSO http://t.co/acqbcVwGl4 VALUTAZIONE PROFESSORI IN BASE AL MERITO .. COME VALUTARLO ? ... UN TOT AL KILO !
@@ -3047,7 +3047,7 @@
 22	A	a	ADP	E	_	24	case	_	_
 23	IL	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	KILO	Kilo	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
-25	!	!	PUNCT	FS	_	21	punct	_	SpaceAfter=\n
+25	!	!	PUNCT	FS	_	21	punct	_	SpacesAfter=\n
 
 # sent_id = test_119
 # text = Sull'arresto di Azzollini il Pd ha votato secondo coscienza. Quindi a caso. [@user]
@@ -3071,7 +3071,7 @@
 16	.	.	PUNCT	FS	_	9	punct	_	_
 17	[	[	PUNCT	FB	_	18	punct	_	SpaceAfter=No
 18	@user	@user	SYM	SYM	_	9	vocative:mention	_	SpaceAfter=No
-19	]	]	PUNCT	FB	_	18	punct	_	SpaceAfter=\n
+19	]	]	PUNCT	FB	_	18	punct	_	SpacesAfter=\n
 
 # sent_id = test_120
 # text = Tsipras si dimette, elezioni già a settembre. La solita efficienza tedesca. [@user]
@@ -3092,7 +3092,7 @@
 14	.	.	PUNCT	FS	_	12	punct	_	_
 15	[	[	PUNCT	FB	_	16	punct	_	SpaceAfter=No
 16	@user	@user	SYM	SYM	_	3	vocative:mention	_	SpaceAfter=No
-17	]	]	PUNCT	FB	_	16	punct	_	SpaceAfter=\n
+17	]	]	PUNCT	FB	_	16	punct	_	SpacesAfter=\n
 
 # sent_id = test_121
 # text = Il Papa fa gli auguri ai dipendenti del Vaticano. “ Buon Natale, italiani ! “ [@user]
@@ -3120,7 +3120,7 @@
 19	“	“	PUNCT	FB	_	15	punct	_	_
 20	[	[	PUNCT	FB	_	21	punct	_	SpaceAfter=No
 21	@user	@user	SYM	SYM	_	3	vocative:mention	_	SpaceAfter=No
-22	]	]	PUNCT	FB	_	21	punct	_	SpaceAfter=\n
+22	]	]	PUNCT	FB	_	21	punct	_	SpacesAfter=\n
 
 # sent_id = test_122
 # text = Marco Rizzo vuole rifondare il Pci. Prima che lo faccia Mastella. [@user]
@@ -3140,7 +3140,7 @@
 13	.	.	PUNCT	FS	_	4	punct	_	_
 14	[	[	PUNCT	FB	_	15	punct	_	SpaceAfter=No
 15	@user	@user	SYM	SYM	_	4	vocative:mention	_	SpaceAfter=No
-16	]	]	PUNCT	FB	_	15	punct	_	SpaceAfter=\n
+16	]	]	PUNCT	FB	_	15	punct	_	SpacesAfter=\n
 
 # sent_id = test_123
 # text = Ah comunque pare che il governo monti ci costi più del precedente governo di peracottari. namo bene.
@@ -3348,7 +3348,7 @@
 16	capo	capo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
 17	..	..	PUNCT	FS	_	3	punct	_	_
 18	#labuonascuola	#labuonascuola	SYM	SYM	_	3	parataxis:hashtag	_	_
-19	http://t.co/G90eDKpgow	http://t.co/G90eDKpgow	SYM	X	_	3	dep	_	SpaceAfter=\n
+19	http://t.co/G90eDKpgow	http://t.co/G90eDKpgow	SYM	X	_	3	dep	_	SpacesAfter=\n
 
 # sent_id = test_132
 # text = Gli amici di Rouhani, per il suo compleanno, gli fanno la sorpresa della ragazza che entra nella torta. [@user]
@@ -3380,7 +3380,7 @@
 23	.	.	PUNCT	FS	_	12	punct	_	_
 24	[	[	PUNCT	FB	_	25	punct	_	SpaceAfter=No
 25	@user	@user	SYM	SYM	_	12	vocative:mention	_	SpaceAfter=No
-26	]	]	PUNCT	FB	_	25	punct	_	SpaceAfter=\n
+26	]	]	PUNCT	FB	_	25	punct	_	SpacesAfter=\n
 
 # sent_id = test_133
 # text = Sono riusciti a cambiare le nostre abitudini. Siamo al punto che se lasci la borsa su una panchina non la prende nessuno. [@user]
@@ -3413,7 +3413,7 @@
 25	.	.	PUNCT	FS	_	12	punct	_	_
 26	[	[	PUNCT	FB	_	27	punct	_	SpaceAfter=No
 27	@user	@user	SYM	SYM	_	2	vocative:mention	_	SpaceAfter=No
-28	]	]	PUNCT	FB	_	27	punct	_	SpaceAfter=\n
+28	]	]	PUNCT	FB	_	27	punct	_	SpacesAfter=\n
 
 # sent_id = test_134
 # text = La buona scuola in 12 punti. Ma quanti errori grammaticali ! Renzi è infastidito e cerca il GUFO SABOTATORE. http://t.co/jzPxE2UxAw
@@ -3439,7 +3439,7 @@
 19	GUFO	gufo	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
 20	SABOTATORE	Sabotatore	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
 21	.	.	PUNCT	FS	_	15	punct	_	_
-22	http://t.co/jzPxE2UxAw	http://t.co/jzPxE2UxAw	SYM	X	_	3	dep	_	SpaceAfter=\n
+22	http://t.co/jzPxE2UxAw	http://t.co/jzPxE2UxAw	SYM	X	_	3	dep	_	SpacesAfter=\n
 
 # sent_id = test_135
 # text = #Renzi su #lascuolaingiusta travestita da #labuonascuola: "questo non è un diktat, ma una proposta sulla quale dialogare". Tutto da vedere.
@@ -3471,7 +3471,7 @@
 24	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	parataxis	_	_
 25	da	da	ADP	E	_	26	mark	_	_
 26	vedere	vedere	VERB	V	VerbForm=Inf	24	acl	_	SpaceAfter=No
-27	.	.	PUNCT	FS	_	24	punct	_	SpaceAfter=\n
+27	.	.	PUNCT	FS	_	24	punct	_	SpacesAfter=\n
 
 # sent_id = test_136
 # text = #labuonascuola Alla domanda ''Renzi riformerà davvero la scuola?'' l'unica risposta che so dare è ''Hulk Hogan!''.
@@ -3501,7 +3501,7 @@
 22	Hogan	Hogan	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
 23	!	!	PUNCT	FS	_	21	punct	_	SpaceAfter=No
 24	''	''	PUNCT	FB	_	21	punct	_	SpaceAfter=No
-25	.	.	PUNCT	FS	_	21	punct	_	SpaceAfter=\n
+25	.	.	PUNCT	FS	_	21	punct	_	SpacesAfter=\n
 
 # sent_id = test_137
 # text = Comunque lo gnègnè tuittero su #labuonascuola mi sembra di un livello più alto di quello dedicato a http://t.co/wJq1CMBuVF ;) #chepalle
@@ -3525,7 +3525,7 @@
 17	a	a	ADP	E	_	18	case	_	_
 18	http://t.co/wJq1CMBuVF	http://t.co/wJq1CMBuVF	SYM	X	_	16	obl	_	_
 19	;)	;)	SYM	SYM	_	8	discourse:emo	_	_
-20	#chepalle	#chepalle	SYM	SYM	_	8	parataxis:hashtag	_	SpaceAfter=\n
+20	#chepalle	#chepalle	SYM	SYM	_	8	parataxis:hashtag	_	SpacesAfter=\n
 
 # sent_id = test_138
 # text = Scuole belle, il grande inganno http://t.co/zSbFuTXFu5 l'italia #cambiaverso e #labuonascuola AHAHAHAH si si come no ... AHAHAHAH
@@ -3548,7 +3548,7 @@
 16	come	come	ADV	B	_	17	advmod	_	_
 17	no	no	INTJ	I	_	1	parataxis	_	_
 18	...	...	PUNCT	FF	_	17	punct	_	_
-19	AHAHAHAH	AHAHAHAH	INTJ	I	_	17	discourse	_	SpaceAfter=\n
+19	AHAHAHAH	AHAHAHAH	INTJ	I	_	17	discourse	_	SpacesAfter=\n
 
 # sent_id = test_139
 # text = #labuonascuola Scuole superiori classi di concorso x le quali si accede con il diploma senza laurea, Italia 2014!
@@ -3572,7 +3572,7 @@
 17	,	,	PUNCT	FF	_	16	punct	_	_
 18	Italia	italia	PROPN	SP	_	2	parataxis	_	_
 19	2014	2014	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
-20	!	!	PUNCT	FS	_	18	punct	_	SpaceAfter=\n
+20	!	!	PUNCT	FS	_	18	punct	_	SpacesAfter=\n
 
 # sent_id = test_140
 # text = Legge Cirinnà, dialogo tra M5S e Vaticano. Mi immagino quanta scienza. [@user]
@@ -3593,7 +3593,7 @@
 14	.	.	PUNCT	FS	_	11	punct	_	_
 15	[	[	PUNCT	FB	_	16	punct	_	SpaceAfter=No
 16	@user	@user	SYM	SYM	_	4	vocative:mention	_	SpaceAfter=No
-17	]	]	PUNCT	FB	_	16	punct	_	SpaceAfter=\n
+17	]	]	PUNCT	FB	_	16	punct	_	SpacesAfter=\n
 
 # sent_id = test_141
 # text = Ebola, parla il paziente zero. “ Non dimenticatemiiiii ! “ [@user]
@@ -3614,7 +3614,7 @@
 13	“	“	PUNCT	FB	_	10	punct	_	_
 14	[	[	PUNCT	FB	_	15	punct	_	SpaceAfter=No
 15	@user	@user	SYM	SYM	_	3	dep	_	SpaceAfter=No
-16	]	]	PUNCT	FB	_	15	punct	_	SpaceAfter=\n
+16	]	]	PUNCT	FB	_	15	punct	_	SpacesAfter=\n
 
 # sent_id = test_142
 # text = Primarie di Milano, Sala batte i due candidati di sinistra. La prossima volta proveranno con tre. [@user]
@@ -3640,5 +3640,5 @@
 19	.	.	PUNCT	FS	_	16	punct	_	_
 20	[	[	PUNCT	FB	_	21	punct	_	SpaceAfter=No
 21	@user	@user	SYM	SYM	_	6	vocative:mention	_	SpaceAfter=No
-22	]	]	PUNCT	FB	_	21	punct	_	SpaceAfter=\n
+22	]	]	PUNCT	FB	_	21	punct	_	SpacesAfter=\n
 

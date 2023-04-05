@@ -108,7 +108,7 @@
 16	,	,	PUNCT	FF	_	13	punct	_	_
 17	Meglio	meglio	ADV	B	_	19	mark	_	_
 18	che	che	SCONJ	CS	_	17	fixed	_	_
-19	vada	andare	VERB	V	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+19	vada	andare	VERB	V	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis:sentence	_	_
 20	a	a	ADP	E	_	21	mark	_	_
 21	studiare	studiare	VERB	V	VerbForm=Inf	19	xcomp	_	_
 22	...	...	PUNCT	FS	_	21	punct	_	_
@@ -172,7 +172,7 @@
 9	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
 10	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	FS	_	3	punct	_	_
-12	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	3	parataxis	_	_
+12	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	3	parataxis:sentence	_	_
 13	Monti	Monti	PROPN	SP	_	12	nmod	_	SpaceAfter=No
 14	:	:	PUNCT	FC	_	12	punct	_	_
 15	dieci	dieci	NUM	N	NumType=Card	12	parataxis	_	_
@@ -201,7 +201,7 @@
 14	.	.	PUNCT	FS	_	7	punct	_	_
 15	Siete	essere	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	cop	_	_
 16	ancora	ancora	ADV	B	_	17	advmod	_	_
-17	contrari	contrario	ADJ	A	Gender=Masc|Number=Plur	7	parataxis	_	_
+17	contrari	contrario	ADJ	A	Gender=Masc|Number=Plur	7	parataxis:sentence	_	_
 18-19	all'	_	_	_	_	_	_	_	SpaceAfter=No
 18	a	a	ADP	E	_	20	case	_	_
 19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
@@ -217,7 +217,7 @@
 4	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 5	#rimontiamo	#rimontiamo	SYM	SYM	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	FS	_	5	punct	_	_
-7	Spread	spread	NOUN	S	_	5	parataxis	_	_
+7	Spread	spread	NOUN	S	_	5	parataxis:sentence	_	_
 8	480	480	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
 9	,	,	PUNCT	FF	_	12	punct	_	_
 10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -293,7 +293,7 @@
 12	.	.	PUNCT	FS	_	3	punct	_	_
 13	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
 14-15	Guardami	_	_	_	_	_	_	_	_
-14	Guarda	guardare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+14	Guarda	guardare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis:sentence	_	_
 15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
 16	papà	papà	NOUN	S	Gender=Masc	14	obj	_	SpaceAfter=No
 17	!	!	PUNCT	FS	_	14	punct	_	SpaceAfter=No
@@ -331,7 +331,7 @@
 23	sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	26	cop	_	_
 24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 25	bell'	bello	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
-26	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	15	parataxis	_	_
+26	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	15	parataxis:sentence	_	_
 27	di	di	ADP	E	_	28	case	_	_
 28	banalità	banalità	NOUN	S	Gender=Fem	26	nmod	_	_
 29	concentrate	concentrato	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	SpaceAfter=No
@@ -356,7 +356,7 @@
 13	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
 14	.	.	PUNCT	FS	_	4	punct	_	_
 15	Come	come	SCONJ	CS	_	16	mark	_	_
-16	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	parataxis	_	_
+16	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	parataxis:sentence	_	_
 17-18	alla	_	_	_	_	_	_	_	_
 17	a	a	ADP	E	_	19	case	_	_
 18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -389,7 +389,7 @@
 15	.	.	PUNCT	FS	_	13	punct	_	_
 16	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
-18	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	parataxis	_	_
+18	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	parataxis:sentence	_	_
 19	di	di	ADP	E	_	20	mark	_	_
 20	bloccare	bloccare	VERB	V	VerbForm=Inf	18	xcomp	_	_
 21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
@@ -496,7 +496,7 @@
 12	Buon	Buon	PROPN	SP	_	15	nsubj	_	_
 13	Canto	canto	PROPN	SP	_	12	flat:name	_	_
 14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
-15	#buonodavvero	#buonodavvero	SYM	SYM	_	4	parataxis	_	SpaceAfter=No
+15	#buonodavvero	#buonodavvero	SYM	SYM	_	4	parataxis:sentence	_	SpaceAfter=No
 16	,	,	PUNCT	FF	_	15	punct	_	_
 17	però	però	ADV	B	_	15	advmod	_	SpaceAfter=No
 18	!	!	PUNCT	FS	_	15	punct	_	SpacesAfter=\n
@@ -510,7 +510,7 @@
 4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	defunti	defunto	NOUN	S	Gender=Masc|Number=Plur	3	nsubj:pass	_	SpaceAfter=No
 6	.	.	PUNCT	FS	_	3	punct	_	_
-7	Ebbero	e	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+7	Ebbero	e	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis:sentence	_	_
 8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	vita	vita	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
 10	dissoluta	dissoluto	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
@@ -572,7 +572,7 @@
 8	.	.	PUNCT	FS	_	2	punct	_	_
 9	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	versione	versione	NOUN	S	Gender=Fem|Number=Sing	2	parataxis	_	_
+11	versione	versione	NOUN	S	Gender=Fem|Number=Sing	2	parataxis:sentence	_	_
 12	ungherese	ungherese	ADJ	A	Number=Sing	11	amod	_	_
 13-14	della	_	_	_	_	_	_	_	_
 13	di	di	ADP	E	_	15	case	_	_
@@ -607,7 +607,7 @@
 14	Finora	finora	ADV	B	_	17	advmod	_	_
 15	Schettino	Schettino	PROPN	SP	_	17	nsubj	_	_
 16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
-17	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	parataxis	_	_
+17	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	parataxis:sentence	_	_
 18	più	più	ADV	B	_	20	advmod	_	_
 19	di	di	ADP	E	_	20	case	_	_
 20	Renzi	Renzi	PROPN	SP	_	17	obl	_	SpaceAfter=No
@@ -769,12 +769,12 @@
 12	no	no	INTJ	I	_	15	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	FF	_	12	punct	_	_
 14	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
-15	lavato	lavare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+15	lavato	lavare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis:sentence	_	_
 16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 17	vetri	vetro	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
 18	.	.	PUNCT	FS	_	15	punct	_	_
 19	[	[	PUNCT	FB	_	20	punct	_	SpaceAfter=No
-20	CONTINUA	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+20	CONTINUA	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis:sentence	_	_
 21	su	su	ADP	E	_	22	case	_	_
 22	http://t.co/oDPUtx2DvV	http://t.co/oDPUtx2DvV	SYM	X	_	20	nmod	_	SpaceAfter=No
 23	]	]	PUNCT	FB	_	20	punct	_	SpacesAfter=\n
@@ -792,7 +792,7 @@
 8	Proprio	proprio	ADV	B	_	9	advmod	_	_
 9	oggi	oggi	ADV	B	_	11	advmod	_	_
 10	che	che	SCONJ	CS	_	11	mark	_	_
-11	spiegavano	spiegare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	parataxis	_	_
+11	spiegavano	spiegare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	parataxis:sentence	_	_
 12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Shoah	Shoah	PROPN	SP	_	11	obj	_	SpaceAfter=No
 14	.	.	PUNCT	FS	_	2	punct	_	_
@@ -848,7 +848,7 @@
 15	A	a	ADP	E	_	16	case	_	_
 16	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	18	iobj	_	_
 17	in	in	ADP	E	_	18	case	_	_
-18	omaggio	omaggio	NOUN	S	Gender=Masc|Number=Sing	8	parataxis	_	_
+18	omaggio	omaggio	NOUN	S	Gender=Masc|Number=Sing	8	parataxis:sentence	_	_
 19	Oliver	Oliver	PROPN	SP	_	18	obj	_	_
 20	Twist	Twist	PROPN	SP	_	19	flat:name	_	_
 21	...	...	PUNCT	FS	_	18	punct	_	SpacesAfter=\n
@@ -942,7 +942,7 @@
 12-13	Dalla	_	_	_	_	_	_	_	_
 12	Da	Da	ADP	E	_	14	case	_	_
 13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	Jena	Jena	PROPN	SP	_	7	parataxis	_	_
+14	Jena	Jena	PROPN	SP	_	7	parataxis:sentence	_	_
 15	di	di	ADP	E	_	16	case	_	_
 16	oggi	oggi	ADV	B	_	14	nmod	_	_
 
@@ -1015,7 +1015,7 @@
 18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	1872	1872	NUM	N	NumType=Card	15	obl	_	SpaceAfter=No
 20	.	.	PUNCT	FS	_	1	punct	_	_
-21	Bravi	bravo	ADJ	A	Gender=Masc|Number=Plur	1	parataxis	_	SpaceAfter=No
+21	Bravi	bravo	ADJ	A	Gender=Masc|Number=Plur	1	parataxis:sentence	_	SpaceAfter=No
 22	!	!	PUNCT	FS	_	21	punct	_	SpacesAfter=\n
 
 # sent_id = dev_41
@@ -1034,10 +1034,10 @@
 9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	Eneide	Eneide	PROPN	SP	_	8	obj	_	SpaceAfter=No
 11	.	.	PUNCT	FS	_	10	punct	_	_
-12	Tutta	tutto	ADV	B	_	8	parataxis	_	SpaceAfter=No
+12	Tutta	tutto	ADV	B	_	8	parataxis:sentence	_	SpaceAfter=No
 13	.	.	PUNCT	FS	_	12	punct	_	_
 14	[	[	PUNCT	FB	_	15	punct	_	SpaceAfter=No
-15	CONTINUA	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+15	CONTINUA	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis:sentence	_	_
 16	su	su	ADP	E	_	17	case	_	_
 17	http://t.co/oDPUtx2DvV	http://t.co/oDPUtx2DvV	SYM	X	_	15	nmod	_	SpaceAfter=No
 18	]	]	PUNCT	FB	_	15	punct	_	SpacesAfter=\n
@@ -1088,7 +1088,7 @@
 11	chiunque	chiunque	PRON	PI	Number=Sing|PronType=Ind	13	nsubj	_	_
 12	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 13-14	comprarne	_	_	_	_	_	_	_	_
-13	comprar	comprare	VERB	V	VerbForm=Inf	8	parataxis	_	_
+13	comprar	comprare	VERB	V	VerbForm=Inf	8	parataxis:sentence	_	_
 14	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	13	dislocated	_	_
 15	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	13	obj	_	SpaceAfter=No
 16	.	.	PUNCT	FS	_	13	punct	_	_
@@ -1133,7 +1133,7 @@
 15	se	se	SCONJ	CS	_	18	mark	_	_
 16	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	cop	_	_
 17	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	1	parataxis	_	_
+18	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	1	parataxis:sentence	_	_
 19	quando	quando	SCONJ	CS	_	20	mark	_	_
 20	toccherà	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	advcl	_	_
 21	pesantemente	pesantemente	ADV	B	_	20	advmod	_	_
@@ -1151,7 +1151,7 @@
 4	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	Italia	italia	PROPN	SP	_	7	nsubj	_	_
 6	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
-7	consenziente	consenziente	ADJ	A	Number=Sing	1	parataxis	_	SpaceAfter=No
+7	consenziente	consenziente	ADJ	A	Number=Sing	1	parataxis:sentence	_	SpaceAfter=No
 8	.	.	PUNCT	FS	_	1	punct	_	_
 9	[	[	PUNCT	FB	_	10	punct	_	SpaceAfter=No
 10	@user	@user	SYM	SYM	_	1	vocative:mention	_	SpaceAfter=No
@@ -1173,7 +1173,7 @@
 10	.	.	PUNCT	FS	_	2	punct	_	_
 11	C'	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	13	obl	_	SpaceAfter=No
 12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
-13	scappato	scappare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
+13	scappato	scappare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis:sentence	_	_
 14	anche	anche	ADV	B	_	16	advmod	_	_
 15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	morto	morto	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
@@ -1181,7 +1181,7 @@
 18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	merito	merito	NOUN	S	Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
 20	.	.	PUNCT	FS	_	19	punct	_	_
-21	Altro	Altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	parataxis	_	_
+21	Altro	Altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	parataxis:sentence	_	_
 22	che	che	SCONJ	CS	_	23	case	_	_
 23	#labuonascuola	#labuonascuola	SYM	SYM	_	21	nmod	_	SpaceAfter=No
 24	...	...	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
@@ -1213,7 +1213,7 @@
 5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
 6	convenisse	convenire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	?	?	PUNCT	FS	_	6	punct	_	_
-8	#labuonascuola	#labuonascuola	SYM	SYM	_	6	parataxis	_	_
+8	#labuonascuola	#labuonascuola	SYM	SYM	_	6	parataxis:sentence	_	_
 9	:	:	PUNCT	FB	_	8	punct	_	SpaceAfter=No
 10	ovvero	ovvero	CCONJ	CC	_	13	cc	_	_
 11	come	come	ADV	B	_	13	advmod	_	_
@@ -1290,7 +1290,7 @@
 12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Consiglio	Consiglio	PROPN	SP	_	10	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	FS	_	5	punct	_	_
-15	'Nnamo	Andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+15	'Nnamo	Andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis:sentence	_	_
 16	bene	bene	ADV	B	_	15	advmod	_	SpaceAfter=No
 17	!	!	PUNCT	FS	_	15	punct	_	_
 18	#renzi	#renzi	SYM	SYM	_	2	parataxis:hashtag	_	_
@@ -1318,7 +1318,7 @@
 16	scalzo	scalzo	NOUN	S	Gender=Masc|Number=Sing	15	amod	_	_
 17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 18	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
-19	restano	restare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+19	restano	restare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis:sentence	_	_
 20	puliti	pulito	ADJ	A	Gender=Masc|Number=Plur	19	xcomp	_	SpaceAfter=No
 21	.	.	PUNCT	FS	_	19	punct	_	_
 22	[	[	PUNCT	FB	_	23	punct	_	SpaceAfter=No
@@ -1345,11 +1345,11 @@
 14	sfiorata	sfiorare	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
 15	.	.	PUNCT	FS	_	13	punct	_	_
 16-17	Cercasi	_	_	_	_	_	_	_	_
-16	Cerca	cercare	VERB	V	Mood=Imp|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+16	Cerca	cercare	VERB	V	Mood=Imp|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	parataxis:sentence	_	_
 17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl:impers	_	_
 18	#labuonascuola	#labuonascuola	SYM	SYM	_	16	obj	_	_
 19	(	(	PUNCT	FB	_	20	punct	_	SpaceAfter=No
-20	Leggi	leggere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
+20	Leggi	leggere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	parataxis:sentence	_	SpaceAfter=No
 21	:	:	PUNCT	FC	_	20	punct	_	_
 22	http://t.co/uovbjwpGDE	http://t.co/uovbjwpGDE	SYM	X	_	20	obj	_	SpaceAfter=No
 23	)	)	PUNCT	FB	_	20	punct	_	SpaceAfter=No
@@ -1381,7 +1381,7 @@
 19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
 20	ancora	ancora	ADV	B	_	21	advmod	_	_
 21	troppo	troppo	ADV	B	_	22	advmod	_	_
-22	pericoloso	pericoloso	ADJ	A	Gender=Masc|Number=Sing	4	parataxis	_	SpaceAfter=No
+22	pericoloso	pericoloso	ADJ	A	Gender=Masc|Number=Sing	4	parataxis:sentence	_	SpaceAfter=No
 23	.	.	PUNCT	FS	_	22	punct	_	_
 24	[	[	PUNCT	FB	_	25	punct	_	SpaceAfter=No
 25	@user	@user	SYM	SYM	_	4	vocative:mention	_	SpaceAfter=No
@@ -1403,7 +1403,7 @@
 11	libertà	libertà	NOUN	S	Gender=Fem	9	obj	_	SpaceAfter=No
 12	.	.	PUNCT	FS	_	9	punct	_	_
 13	Purtroppo	purtroppo	ADV	B	_	14	advmod	_	_
-14	mancavano	mancare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	parataxis	_	_
+14	mancavano	mancare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	parataxis:sentence	_	_
 15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
 16	istruzioni	istruzione	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
 17	per	per	ADP	E	_	19	case	_	_
@@ -1467,7 +1467,7 @@
 13	ladro	ladro	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
 14	.	.	PUNCT	FS	_	2	punct	_	_
 15	Dovrà	dovere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux	_	_
-16	partire	partire	VERB	V	VerbForm=Inf	2	parataxis	_	_
+16	partire	partire	VERB	V	VerbForm=Inf	2	parataxis:sentence	_	_
 17-18	dall'	_	_	_	_	_	_	_	SpaceAfter=No
 17	da	da	ADP	E	_	20	case	_	_
 18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
@@ -1499,7 +1499,7 @@
 10	.	.	PUNCT	FS	_	3	punct	_	_
 11	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
 12	così	così	ADV	B	_	13	advmod	_	_
-13	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	3	parataxis	_	_
+13	brutto	brutto	ADJ	A	Gender=Masc|Number=Sing	3	parataxis:sentence	_	_
 14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	concerto	concerto	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
 16	?	?	PUNCT	FS	_	13	punct	_	_
@@ -1557,7 +1557,7 @@
 13	.	.	PUNCT	FS	_	2	punct	_	_
 14	AO	ao	NOUN	S	Gender=Masc|Number=Sing	16	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	FF	_	14	punct	_	_
-16	USCITE	uscire	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+16	USCITE	uscire	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis:sentence	_	_
 17	DA	da	ADP	E	_	19	case	_	_
 18	QUESTO	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
 19	PAESE	paese	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
@@ -1573,7 +1573,7 @@
 28	SCUOLA	scuola	NOUN	S	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
 29	.	.	PUNCT	FS	_	16	punct	_	_
 30-31	Ritenetemi	_	_	_	_	_	_	_	_
-30	Ritenete	Ritenere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+30	Ritenete	Ritenere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis:sentence	_	_
 31	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	30	obj	_	_
 32	Morti	Mortare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	30	xcomp	_	_
 33	c:	c:	SYM	SYM	_	2	discourse:emo	_	SpacesAfter=\n
@@ -1595,7 +1595,7 @@
 11	.	.	PUNCT	FS	_	5	punct	_	_
 12	Vogliono	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 13-14	portarlo	_	_	_	_	_	_	_	_
-13	portar	portare	VERB	V	VerbForm=Inf	5	parataxis	_	_
+13	portar	portare	VERB	V	VerbForm=Inf	5	parataxis:sentence	_	_
 14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 15	a	a	ADP	E	_	16	mark	_	_
 16	visitare	visitare	VERB	V	VerbForm=Inf	13	xcomp	_	_
@@ -1605,7 +1605,7 @@
 20	parallelo	parallelo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
 21	.	.	PUNCT	FS	_	13	punct	_	_
 22	[	[	PUNCT	FB	_	23	punct	_	SpaceAfter=No
-23	CONTINUA	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+23	CONTINUA	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis:sentence	_	_
 24	su	su	ADP	E	_	25	case	_	_
 25	http://t.co/oDPUtx2DvV	http://t.co/oDPUtx2DvV	SYM	X	_	23	obl	_	SpaceAfter=No
 26	]	]	PUNCT	FB	_	23	punct	_	SpacesAfter=\n
@@ -1641,7 +1641,7 @@
 5	.	.	PUNCT	FS	_	2	punct	_	_
 6	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Papa	Papa	PROPN	SP	_	8	nsubj	_	_
-8	dichiara	dichiarare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+8	dichiara	dichiarare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis:sentence	_	_
 9	di	di	ADP	E	_	11	mark	_	_
 10	voler	volere	AUX	VM	VerbForm=Inf	11	aux	_	_
 11	fare	fare	VERB	V	VerbForm=Inf	8	xcomp	_	_
@@ -1650,7 +1650,7 @@
 14	.	.	PUNCT	FS	_	8	punct	_	_
 15	Bruno	Bruno	PROPN	SP	_	17	nsubj	_	_
 16	vespa	vespa	PROPN	SP	_	15	flat:name	_	_
-17	fara'	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	parataxis	_	_
+17	fara'	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	parataxis:sentence	_	_
 18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	velina	velina	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
 20	.	.	PUNCT	FS	_	17	punct	_	_
@@ -1668,7 +1668,7 @@
 8	Premier	Premier	PROPN	SP	_	11	obl	_	SpaceAfter=No
 9	,	,	PUNCT	FF	_	8	punct	_	_
 10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:impers	_	_
-11	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+11	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis:sentence	_	_
 12	insistentemente	insistentemente	ADV	B	_	11	advmod	_	_
 13	di	di	ADP	E	_	14	case	_	_
 14	Mario	mario	PROPN	SP	_	11	obl	_	_
@@ -1689,7 +1689,7 @@
 10	libico	libico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
 11	.	.	PUNCT	FS	_	7	punct	_	_
 12	«	«	PUNCT	FB	_	13	punct	_	_
-13	Sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+13	Sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis:sentence	_	_
 14	più	più	ADV	B	_	15	advmod	_	_
 15	serio	serio	ADJ	A	Gender=Masc|Number=Sing	13	xcomp	_	_
 16-17	del	_	_	_	_	_	_	_	_
@@ -1743,7 +1743,7 @@
 11	mendicante	mendicante	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 12	.	.	PUNCT	FS	_	8	punct	_	_
 13	Bel	bello	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
-14	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	8	parataxis	_	SpaceAfter=No
+14	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	8	parataxis:sentence	_	SpaceAfter=No
 15	,	,	PUNCT	FF	_	21	punct	_	_
 16	ma	ma	CCONJ	CC	_	21	cc	_	_
 17	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -1774,7 +1774,7 @@
 11	,	,	PUNCT	FF	_	10	punct	_	_
 12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	paese	paese	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
-14	traghetterà	traghettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	parataxis	_	_
+14	traghetterà	traghettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	parataxis:sentence	_	_
 15	anche	anche	ADV	B	_	16	advmod	_	_
 16	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	14	obj	_	_
 17	fuori	fuori	ADV	B	_	20	case	_	_
@@ -1802,12 +1802,12 @@
 11	?	?	PUNCT	FS	_	7	punct	_	_
 12	si	sì	INTJ	I	_	14	discourse	_	_
 13	ma	ma	CCONJ	CC	_	14	cc	_	_
-14	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+14	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis:sentence	_	_
 15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 16	terza	terzo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	17	amod	_	_
 17	media	medio	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
 18	quanto	quanto	PRON	PQ	PronType=Int	19	obj	_	_
-19	vuoi	volere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+19	vuoi	volere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	parataxis:sentence	_	_
 20	20	20	NUM	N	NumType=Card	21	nummod	_	_
 21	€	€	SYM	SYM	_	19	parataxis	_	_
 22	nooo	no	INTJ	I	_	24	discourse	_	_
@@ -1839,10 +1839,10 @@
 12-13	agli	_	_	_	_	_	_	_	_
 12	a	a	ADP	E	_	14	case	_	_
 13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
-14	sgoccioli	sgocciolo	NOUN	S	Gender=Masc|Number=Plur	4	parataxis	_	SpaceAfter=No
+14	sgoccioli	sgocciolo	NOUN	S	Gender=Masc|Number=Plur	4	parataxis:sentence	_	SpaceAfter=No
 15	.	.	PUNCT	FS	_	14	punct	_	_
 16	[	[	PUNCT	FB	_	17	punct	_	SpaceAfter=No
-17	ipercarmela	ipercarmela	NOUN	S	Gender=Fem|Number=Sing	4	parataxis	_	SpaceAfter=No
+17	ipercarmela	ipercarmela	NOUN	S	Gender=Fem|Number=Sing	4	parataxis:sentence	_	SpaceAfter=No
 18	]	]	PUNCT	FB	_	17	punct	_	SpacesAfter=\n
 
 # sent_id = dev_72
@@ -1860,7 +1860,7 @@
 10	Dai	dare	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	12	parataxis:discourse	_	SpaceAfter=No
 11	,	,	PUNCT	FB	_	10	punct	_	_
 12-13	fatti	_	_	_	_	_	_	_	_
-12	fat	fare	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	5	parataxis	_	_
+12	fat	fare	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	5	parataxis:sentence	_	_
 13	ti	ti	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	_
 14	forza	forza	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
 15	“	“	PUNCT	FB	_	12	punct	_	SpaceAfter=No
@@ -1931,13 +1931,13 @@
 6	soli	solo	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
 7	tecnici	tecnico	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
 8	.	.	PUNCT	FS	_	2	punct	_	_
-9	Amato	Amato	PROPN	SP	_	2	parataxis	_	_
+9	Amato	Amato	PROPN	SP	_	2	parataxis:sentence	_	_
 10-11	agli	_	_	_	_	_	_	_	_
 10	a	a	ADP	E	_	12	case	_	_
 11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	Esteri	Esteri	PROPN	SP	_	9	nmod	_	_
 13	...	...	PUNCT	FS	_	2	punct	_	_
-14	cos'	cosa	PRON	PQ	PronType=Int	2	parataxis	_	_
+14	cos'	cosa	PRON	PQ	PronType=Int	2	parataxis:sentence	_	_
 15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 16	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
 17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
@@ -1975,7 +1975,7 @@
 23	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 24	Fini	Fini	PROPN	SP	_	23	xcomp	_	SpaceAfter=No
 25	?	?	PUNCT	FS	_	24	punct	_	_
-26	Fini	Fini	PROPN	SP	_	3	parataxis	_	_
+26	Fini	Fini	PROPN	SP	_	3	parataxis:sentence	_	_
 27	chi	chi	PRON	PR	PronType=Rel	26	nsubj	_	_
 28	?!?	?!?	PUNCT	FS	_	26	punct	_	_
 
@@ -2058,7 +2058,7 @@
 5	Monti	Monti	PROPN	SP	_	4	nmod	_	SpaceAfter=No
 6	?	?	PUNCT	FS	_	2	punct	_	_
 7	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	iobj	_	_
-8	mancherebbe	mancare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+8	mancherebbe	mancare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis:sentence	_	SpaceAfter=No
 9	,	,	PUNCT	FF	_	12	punct	_	_
 10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
 11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
@@ -2102,7 +2102,7 @@
 7	,	,	PUNCT	FF	_	6	punct	_	_
 8	vabbè	vabbè	INTJ	I	_	3	discourse	_	SpaceAfter=No
 9	!	!	PUNCT	FS	_	8	punct	_	_
-10	Goldman	Goldman	PROPN	SP	_	3	parataxis	_	_
+10	Goldman	Goldman	PROPN	SP	_	3	parataxis:sentence	_	_
 11	Sachs	Sachs	PROPN	SP	_	10	flat:name	_	_
 12	de	de	ADP	E	_	13	case	_	_
 13	che	che	PRON	PR	PronType=Rel	10	nmod	_	SpaceAfter=No
@@ -2213,7 +2213,7 @@
 18	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
 19	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	21	expl	_	_
 20	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	21	iobj	_	_
-21	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpacesAfter=\n
+21	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis:sentence	_	SpacesAfter=\n
 
 # sent_id = dev_87
 # text = Su #labuonascuola c'è chi torna ancora alla carica con i bambini "costretti a cantare per #Renzi". Avete proprio un mucchio di argomenti eh?
@@ -2240,7 +2240,7 @@
 19	#Renzi	#Renzi	SYM	SYM	_	17	obl	_	SpaceAfter=No
 20	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
 21	.	.	PUNCT	FS	_	4	punct	_	_
-22	Avete	avere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+22	Avete	avere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	parataxis:sentence	_	_
 23	proprio	proprio	ADV	B	_	22	advmod	_	_
 24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	mucchio	mucchio	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
@@ -2261,16 +2261,16 @@
 7	pag	pag	NOUN	S	Gender=Fem	4	nmod	_	SpaceAfter=No
 8	!	!	PUNCT	FS	_	4	punct	_	_
 9	Cazzo	cazzo	NOUN	S	_	10	obj	_	_
-10	pretendono	pretendire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+10	pretendono	pretendire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis:sentence	_	SpaceAfter=No
 11	?	?	PUNCT	FS	_	10	punct	_	_
 12	Che	che	SCONJ	CS	_	15	mark	_	_
 13	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
 14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
-15	legga	leggare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+15	legga	leggare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis:sentence	_	_
 16	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	15	obl	_	SpaceAfter=No
 17	?	?	PUNCT	FS	_	15	punct	_	_
 18	Domani	domani	ADV	B	_	19	advmod	_	_
-19	leggo	leggere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+19	leggo	leggere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis:sentence	_	_
 20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	blog	blog	NOUN	S	_	19	obj	_	_
 22	di	di	ADP	E	_	23	case	_	_
@@ -2302,11 +2302,11 @@
 16	,	,	PUNCT	FF	_	15	punct	_	_
 17	quindi	quindi	ADV	B	_	19	advmod	_	_
 18	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	19	expl	_	SpaceAfter=No
-19	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+19	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis:sentence	_	_
 20	Renzi	Renzi	PROPN	SP	_	19	nsubj	_	SpaceAfter=No
 21	?	?	PUNCT	FS	_	19	punct	_	_
 22	[	[	PUNCT	FB	_	23	punct	_	SpaceAfter=No
-23	CONTINUA	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	parataxis	_	_
+23	CONTINUA	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	parataxis:sentence	_	_
 24	su	su	ADP	E	_	25	case	_	_
 25	@user	@user	SYM	SYM	_	23	obl	_	SpaceAfter=No
 26	]	]	PUNCT	FB	_	23	punct	_	SpacesAfter=\n
@@ -2357,7 +2357,7 @@
 15	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	14	compound	_	SpaceAfter=No
 16	?	?	PUNCT	FS	_	12	punct	_	_
 17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
-18	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+18	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	parataxis:sentence	_	_
 19	idea	idea	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
 20	di	di	ADP	E	_	21	case	_	_
 21	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	nmod	_	_
@@ -2387,7 +2387,7 @@
 16	#labuonascuola	#labuonascuola	SYM	SYM	_	19	nsubj	_	_
 17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
 18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
-19	crolla	crollare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+19	crolla	crollare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis:sentence	_	_
 20	in	in	ADP	E	_	21	case	_	_
 21	testa	testa	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
 22	!	!	PUNCT	FS	_	19	punct	_	SpacesAfter=\n
@@ -2656,7 +2656,7 @@
 27	Ah	ah	INTJ	I	_	30	discourse	_	_
 28	no	no	INTJ	I	_	30	discourse	_	_
 29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	minchione	minchione	NOUN	S	Gender=Masc|Number=Sing	5	parataxis	_	_
+30	minchione	minchione	NOUN	S	Gender=Masc|Number=Sing	5	parataxis:sentence	_	_
 31	!!	!!	PUNCT	FS	_	30	punct	_	_
 
 # sent_id = dev_103
@@ -2695,7 +2695,7 @@
 12	.	.	PUNCT	FS	_	8	punct	_	_
 13	Tranne	tranne	ADP	E	_	15	case	_	_
 14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	parte	parte	NOUN	S	Gender=Fem|Number=Sing	8	parataxis	_	_
+15	parte	parte	NOUN	S	Gender=Fem|Number=Sing	8	parataxis:sentence	_	_
 16-17	del	_	_	_	_	_	_	_	_
 16	di	di	ADP	E	_	19	case	_	_
 17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -2721,7 +2721,7 @@
 9	Medioevo	medioevo	PROPN	SP	_	6	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	FS	_	6	punct	_	_
 11	Che	che	DET	DE	PronType=Exc	12	det	_	_
-12	beffa	beffa	NOUN	S	Gender=Fem|Number=Sing	6	parataxis	_	_
+12	beffa	beffa	NOUN	S	Gender=Fem|Number=Sing	6	parataxis:sentence	_	_
 13-15	andarsene	_	_	_	_	_	_	_	_
 13	andar	andare	VERB	V	VerbForm=Inf	12	csubj	_	_
 14	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
@@ -2749,11 +2749,11 @@
 8	di	di	ADP	E	_	7	fixed	_	_
 9	mezzogiorno	mezzogiorno	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
 10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
-11	prendeva	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	parataxis	_	_
+11	prendeva	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	parataxis:sentence	_	_
 12	appuntamenti	appuntamento	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
 13	.	.	PUNCT	FS	_	11	punct	_	_
 14	[	[	PUNCT	FB	_	15	punct	_	SpaceAfter=No
-15	CONTINUA	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+15	CONTINUA	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis:sentence	_	_
 16	su	su	ADP	E	_	17	case	_	_
 17	http://t.co/oDPUtxTqU7	http://t.co/oDPUtxTqU7	SYM	X	_	15	obl	_	SpaceAfter=No
 18	]	]	PUNCT	FB	_	15	punct	_	SpacesAfter=\n
@@ -2787,7 +2787,7 @@
 23	.	.	PUNCT	FS	_	21	punct	_	_
 24	A	a	ADP	E	_	25	mark	_	_
 25-26	cancellarlo	_	_	_	_	_	_	_	SpaceAfter=No
-25	cancellar	cancellare	VERB	V	VerbForm=Inf	21	parataxis	_	_
+25	cancellar	cancellare	VERB	V	VerbForm=Inf	21	parataxis:sentence	_	_
 26	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
 27	.	.	PUNCT	FS	_	25	punct	_	_
 28	[	[	PUNCT	FB	_	29	punct	_	SpaceAfter=No
@@ -2807,7 +2807,7 @@
 8	.	.	PUNCT	FS	_	6	punct	_	_
 9	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
 10	Avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	_
-11	sbagliato	sbagliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	parataxis	_	SpaceAfter=No
+11	sbagliato	sbagliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	parataxis:sentence	_	SpaceAfter=No
 12	"	"	PUNCT	FB	_	11	punct	_	_
 13	[	[	PUNCT	FB	_	14	punct	_	SpaceAfter=No
 14	@user	@user	SYM	SYM	_	6	vocative:mention	_	SpaceAfter=No
@@ -2887,7 +2887,7 @@
 17	veramente	veramente	ADV	B	_	20	advmod	_	_
 18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 19	buona	buono	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
-20	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	9	parataxis	_	_
+20	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	9	parataxis:sentence	_	_
 21	...	...	PUNCT	FS	_	20	punct	_	SpacesAfter=\n
 
 # sent_id = dev_112
@@ -2919,7 +2919,7 @@
 6	Chigi	Chigi	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
 7	.	.	PUNCT	FS	_	2	punct	_	_
 8	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
-9	Fa'	fare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+9	Fa'	fare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis:sentence	_	_
 10	come	come	ADV	B	_	14	advmod	_	_
 11	se	se	SCONJ	CS	_	14	mark	_	_
 12	fossi	essere	AUX	V	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	cop	_	_
@@ -2929,7 +2929,7 @@
 16	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
 17	.	.	PUNCT	FS	_	9	punct	_	_
 18	[	[	PUNCT	FB	_	19	punct	_	SpaceAfter=No
-19	sangancillo	sangancillo	NOUN	S	Gender=Masc|Number=Sing	2	parataxis	_	SpaceAfter=No
+19	sangancillo	sangancillo	NOUN	S	Gender=Masc|Number=Sing	2	parataxis:sentence	_	SpaceAfter=No
 20	]	]	PUNCT	FB	_	19	punct	_	SpacesAfter=\n
 
 # sent_id = dev_114
@@ -2954,12 +2954,12 @@
 17	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No
 18	"	"	PUNCT	FB	_	17	punct	_	_
 19	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
-20	insegnare	insegnare	VERB	V	VerbForm=Inf	5	parataxis	_	_
+20	insegnare	insegnare	VERB	V	VerbForm=Inf	5	parataxis:sentence	_	_
 21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	sapere	sapere	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
 23	critico	critico	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
 24	.	.	PUNCT	FS	_	20	punct	_	_
-25	Capito	capere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+25	Capito	capere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis:sentence	_	_
 26	futuri	futuro	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	_
 27	schiavi	schiavo	NOUN	S	Gender=Masc|Number=Plur	25	vocative	_	SpaceAfter=No
 28	?	?	PUNCT	FS	_	25	punct	_	SpacesAfter=\n
@@ -2981,7 +2981,7 @@
 12	Poi	poi	ADV	B	_	14	advmod	_	_
 13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
 14-15	lamentiamoci	_	_	_	_	_	_	_	_
-14	lamentiamo	lamentare	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+14	lamentiamo	lamentare	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	parataxis:sentence	_	_
 15	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	14	expl	_	_
 16	se	se	SCONJ	CS	_	19	mark	_	_
 17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -3008,7 +3008,7 @@
 6	Se	se	SCONJ	CS	_	8	advcl	_	_
 7	si	sì	ADV	B	_	6	orphan	_	_
 8-9	chiedigli	_	_	_	_	_	_	_	_
-8	chiedi	chiedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+8	chiedi	chiedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis:sentence	_	_
 9	gli	gli	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
 10	quanti	quanto	DET	DQ	Gender=Masc|Number=Plur|PronType=Int	11	det	_	_
 11	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
@@ -3038,7 +3038,7 @@
 11	Pur	pur	ADV	B	_	13	advmod	_	_
 12	di	di	ADP	E	_	13	mark	_	_
 13-15	levargliela	_	_	_	_	_	_	_	_
-13	levar	levare	VERB	V	VerbForm=Inf	5	parataxis	_	_
+13	levar	levare	VERB	V	VerbForm=Inf	5	parataxis:sentence	_	_
 14	glie	gli	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
 15	la	la	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 16-17	dalle	_	_	_	_	_	_	_	_
@@ -3047,7 +3047,7 @@
 18	mani	mano	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
 19	.	.	PUNCT	FS	_	13	punct	_	_
 20	[	[	PUNCT	FB	_	21	punct	_	SpaceAfter=No
-21	stocazzo	stocazzo	NOUN	S	Gender=Masc|Number=Sing	5	parataxis	_	SpaceAfter=No
+21	stocazzo	stocazzo	NOUN	S	Gender=Masc|Number=Sing	5	parataxis:sentence	_	SpaceAfter=No
 22	!	!	PUNCT	FS	_	21	punct	_	SpaceAfter=No
 23	]	]	PUNCT	FB	_	21	punct	_	SpacesAfter=\n
 
@@ -3064,7 +3064,7 @@
 8	parole	parola	NOUN	S	Gender=Fem|Number=Plur	11	parataxis	_	SpaceAfter=No
 9	:	:	PUNCT	FC	_	8	punct	_	_
 10	“	“	PUNCT	FB	_	11	punct	_	_
-11	Fünf	Fünf	X	SW	_	3	parataxis	_	_
+11	Fünf	Fünf	X	SW	_	3	parataxis:sentence	_	_
 12	minuten	minuten	X	SW	_	11	flat:foreign	_	_
 13	!	!	PUNCT	FS	_	11	punct	_	_
 14	“	“	PUNCT	FB	_	3	punct	_	_
@@ -3091,7 +3091,7 @@
 14-15	nel	_	_	_	_	_	_	_	_
 14	in	in	ADP	E	_	16	case	_	_
 15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	9	parataxis	_	SpaceAfter=No
+16	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	9	parataxis:sentence	_	SpaceAfter=No
 17	,	,	PUNCT	FF	_	16	punct	_	_
 18	perché	perché	SCONJ	CS	_	21	mark	_	_
 19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
@@ -3138,7 +3138,7 @@
 10	se	se	SCONJ	CS	_	13	mark	_	_
 11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	13	expl	_	_
 12	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
-13	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	parataxis	_	_
+13	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	parataxis:sentence	_	_
 14	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 15-16	ai	_	_	_	_	_	_	_	_
 15	a	a	ADP	E	_	18	case	_	_
@@ -3229,7 +3229,7 @@
 18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	cantieri	cantiere	NOUN	S	Gender=Masc|Number=Plur	21	dislocated	_	_
 20	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	obj	_	_
-21	vedremo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	7	parataxis	_	_
+21	vedremo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	7	parataxis:sentence	_	_
 22	da	da	ADP	E	_	23	case	_	_
 23	dentro	dentro	ADV	B	_	21	advmod	_	SpaceAfter=No
 24	.	.	PUNCT	FS	_	7	punct	_	_
@@ -3374,7 +3374,7 @@
 8	Rocco	rocco	PROPN	SP	_	4	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	FS	_	4	punct	_	_
 10	Puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	_
-11	morire	morire	VERB	V	VerbForm=Inf	4	parataxis	_	_
+11	morire	morire	VERB	V	VerbForm=Inf	4	parataxis:sentence	_	_
 12	felice	felice	ADJ	A	Number=Sing	11	xcomp	_	SpaceAfter=No
 13	.	.	PUNCT	FS	_	11	punct	_	_
 
@@ -3483,7 +3483,7 @@
 15	volta	volta	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
 16	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	5	parataxis	_	_
+18	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	5	parataxis:sentence	_	_
 19	a	a	ADP	E	_	20	mark	_	_
 20-21	distinguerli	_	_	_	_	_	_	_	_
 20	distinguer	distinguere	VERB	V	VerbForm=Inf	18	acl	_	_
@@ -3511,7 +3511,7 @@
 9	2002	2002	NUM	N	NumType=Card	7	flat	_	SpaceAfter=No
 10	.	.	PUNCT	FS	_	3	punct	_	_
 11-12	Trasformandolo	_	_	_	_	_	_	_	_
-11	Trasformando	trasformare	VERB	V	VerbForm=Ger	3	parataxis	_	_
+11	Trasformando	trasformare	VERB	V	VerbForm=Ger	3	parataxis:sentence	_	_
 12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
 13	immediatamente	immediatamente	ADV	B	_	11	advmod	_	_
 14-15	nel	_	_	_	_	_	_	_	_
@@ -3522,7 +3522,7 @@
 18	4004	4004	NUM	N	NumType=Card	16	flat	_	SpaceAfter=No
 19	.	.	PUNCT	FS	_	11	punct	_	_
 20	[	[	PUNCT	FB	_	21	punct	_	SpaceAfter=No
-21	CONTINUA	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+21	CONTINUA	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis:sentence	_	_
 22	su	su	ADP	E	_	23	case	_	_
 23	http://t.co/pJhE2CMi70	http://t.co/pJhE2CMi70	SYM	X	_	21	obl	_	SpaceAfter=No
 24	]	]	PUNCT	FB	_	21	punct	_	SpacesAfter=\n
@@ -3546,7 +3546,7 @@
 14	direbbe	dire	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No
 15	.	.	PUNCT	FS	_	14	punct	_	_
 16	[	[	PUNCT	FB	_	17	punct	_	SpaceAfter=No
-17	CONTINUA	continuare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+17	CONTINUA	continuare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	parataxis:sentence	_	_
 18	su	su	ADP	E	_	19	case	_	_
 19	https://t.co/oDPUtx2DvV	https://t.co/oDPUtx2DvV	SYM	X	_	17	obl	_	SpaceAfter=No
 20	]	]	PUNCT	FB	_	17	punct	_	SpacesAfter=\n
@@ -3572,7 +3572,7 @@
 16	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
 17	?	?	PUNCT	FS	_	13	punct	_	_
 18	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
-19	iscrizione	iscrizione	NOUN	S	Gender=Fem|Number=Sing	1	parataxis	_	_
+19	iscrizione	iscrizione	NOUN	S	Gender=Fem|Number=Sing	1	parataxis:sentence	_	_
 20	a	a	ADP	E	_	21	case	_	_
 21	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	FS	_	19	punct	_	_
@@ -3592,13 +3592,13 @@
 7	fango	fango	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
 8	usata	usato	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
 9	.	.	PUNCT	FS	_	2	punct	_	_
-10	Chiedere	chiedere	VERB	V	VerbForm=Inf	2	parataxis	_	_
+10	Chiedere	chiedere	VERB	V	VerbForm=Inf	2	parataxis:sentence	_	_
 11	di	di	ADP	E	_	12	case	_	_
 12	Matteo	matteo	PROPN	SP	_	10	obl	_	SpaceAfter=No
 13	.	.	PUNCT	FS	_	10	punct	_	_
 14	[	[	PUNCT	FB	_	16	punct	_	SpaceAfter=No
 15	acid	acid	ADJ	A	_	16	amod	_	_
-16	rain	rain	NOUN	S	_	2	parataxis	_	SpaceAfter=No
+16	rain	rain	NOUN	S	_	2	parataxis:sentence	_	SpaceAfter=No
 17	]	]	PUNCT	FB	_	16	punct	_	SpacesAfter=\n
 
 # sent_id = dev_141
@@ -3622,7 +3622,7 @@
 15-16	nella	_	_	_	_	_	_	_	_
 15	in	in	ADP	E	_	17	case	_	_
 16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	Repubblica	repubblica	NOUN	S	Gender=Fem|Number=Sing	2	parataxis	_	_
+17	Repubblica	repubblica	NOUN	S	Gender=Fem|Number=Sing	2	parataxis:sentence	_	_
 18-19	delle	_	_	_	_	_	_	_	_
 18	di	di	ADP	E	_	20	case	_	_
 19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
@@ -3631,7 +3631,7 @@
 22	Sareste	essere	AUX	V	Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	25	cop	_	_
 23	prprio	proprio	ADV	B	_	25	advmod	_	_
 24	bravi	bravo	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
-25	insegnanti	insegnante	NOUN	S	Number=Plur	2	parataxis	_	SpacesAfter=\n
+25	insegnanti	insegnante	NOUN	S	Number=Plur	2	parataxis:sentence	_	SpacesAfter=\n
 
 # sent_id = dev_142
 # text = @user1 @user2 @user3 @user4 @user5 la "buona scuola" perché prevedete di mangiarci sopra!! #sfplm85bis
@@ -3704,5 +3704,5 @@
 22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	destino	destino	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
 24	.	.	PUNCT	FS	_	20	punct	_	_
-25	#enricostaisereno	#enricostaisereno	SYM	SYM	_	1	parataxis	_	SpacesAfter=\n
+25	#enricostaisereno	#enricostaisereno	SYM	SYM	_	1	parataxis:sentence	_	SpacesAfter=\n
 

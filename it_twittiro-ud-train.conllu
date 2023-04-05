@@ -23308,9 +23308,9 @@
 18	fare	fare	VERB	V	VerbForm=Inf	8	ccomp	_	_
 19	#labuonascuola	#labuonascuola	SYM	SYM	_	18	obj	_	SpaceAfter=No
 20	.	.	PUNCT	FS	_	1	punct	_	_
-21-22	Pensiamoci	_	_	_	_	_	_	_	_
-21	Pensiamo	pensare	VERB	V	Mood=Imp|Number=Plur|VerbForm=Fin	1	parataxis	_	SpacesAfter=\n
-22	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	21	iobj	_	SpacesAfter=\n
+21-22	Pensiamoci	_	_	_	_	_	_	_	SpacesAfter=\n
+21	Pensiamo	pensare	VERB	V	Mood=Imp|Number=Plur|VerbForm=Fin	1	parataxis	_	_
+22	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	21	iobj	_	_
 
 # sent_id = train_906
 # text = @user e meno male che la scuola serve per educare. Il Caovur sembra essere diventato una tribuna politica. #labuonascuola

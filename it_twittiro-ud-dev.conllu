@@ -611,7 +611,7 @@
 18	più	più	ADV	B	_	20	advmod	_	_
 19	di	di	ADP	E	_	20	case	_	_
 20	Renzi	Renzi	PROPN	SP	_	17	obl	_	SpaceAfter=No
-21	.	.	PUNCT	FS	_	17	punct	_	SpaceAfter=\s\s
+21	.	.	PUNCT	FS	_	17	punct	_	SpacesAfter=\s\s
 22	[	[	PUNCT	FB	_	23	punct	_	SpaceAfter=No
 23	@user	@user	SYM	SYM	_	7	vocative:mention	_	SpaceAfter=No
 24	]	]	PUNCT	FB	_	23	punct	_	SpacesAfter=\n

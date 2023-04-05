@@ -10863,9 +10863,9 @@
 7	voce	voce	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
 8	di	di	ADP	E	_	9	case	_	_
 9	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	FF	_	4	punct	_	SpaceAfter=\s\s
+10	,	,	PUNCT	FF	_	4	punct	_	SpacesAfter=\s\s
 11	...	...	PUNCT	FF	_	4	punct	_	SpaceAfter=No
-12	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=\s\s
+12	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\s
 13	“	“	PUNCT	FB	_	4	punct	_	_
 14	@user	@user	SYM	SYM	_	16	vocative:mention	_	_
 15	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
@@ -13965,13 +13965,13 @@
 1	@user	@user	ADV	B	_	3	vocative:mention	_	_
 2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	_
 3	mancava	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	per	per	ADP	E	_	8	case	_	SpaceAfter=\s\s
+4	per	per	ADP	E	_	8	case	_	SpacesAfter=\s\s
 5	....	....	PUNCT	FS	_	8	punct	_	_
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 7	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
 8	sapere	sapere	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
-9	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=\s\s
-10	....	....	PUNCT	FS	_	8	punct	_	SpaceAfter=\s\s
+9	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpacesAfter=\s\s
+10	....	....	PUNCT	FS	_	8	punct	_	SpacesAfter=\s\s
 11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 12	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
 13	buona	buono	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
@@ -17014,7 +17014,7 @@
 14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	16	amod	_	_
 16	desiderio	desiderio	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
-17	?	?	PUNCT	FS	_	12	punct	_	SpaceAfter=\s\s
+17	?	?	PUNCT	FS	_	12	punct	_	SpacesAfter=\s\s
 18	[	[	PUNCT	FB	_	19	punct	_	SpaceAfter=No
 19	@user	@user	SYM	SYM	_	12	vocative:mention	_	SpaceAfter=No
 20	]	]	PUNCT	FB	_	19	punct	_	SpacesAfter=\n
@@ -22836,7 +22836,7 @@
 11	festeggiassimo	festeggiare	VERB	V	Mood=Sub|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	9	ccomp	_	_
 12	due	due	NUM	N	NumType=Card	13	nummod	_	_
 13	volte	volta	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
-14	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=\s\s
+14	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\s
 15	[	[	PUNCT	FB	_	16	punct	_	SpaceAfter=No
 16	@user	@user	SYM	SYM	_	2	vocative:mention	_	SpaceAfter=No
 17	]	]	PUNCT	FB	_	16	punct	_	SpacesAfter=\n
@@ -24879,7 +24879,7 @@
 14	ridere	ridere	VERB	V	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
 15	,	,	PUNCT	FF	_	19	punct	_	_
 16	invece	invece	ADV	B	_	19	advmod	_	_
-17	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	19	nsubj	_	SpaceAfter=\s\s
+17	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	19	nsubj	_	SpacesAfter=\s\s
 18	.....	.....	PUNCT	FS	_	17	punct	_	_
 19	inorridiamo	inorridare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	conj	_	SpaceAfter=No
 20	!	!	PUNCT	FS	_	19	punct	_	_
@@ -28385,7 +28385,7 @@
 8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
 9	commuovono	commuovere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
 10	sempre	sempre	ADV	B	_	9	advmod	_	SpaceAfter=No
-11	.	.	PUNCT	FS	_	9	punct	_	SpaceAfter=\s\s
+11	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\s\s
 12	[	[	PUNCT	FB	_	13	punct	_	SpaceAfter=No
 13	@user	@user	SYM	SYM	_	1	vocative:mention	_	SpaceAfter=No
 14	]	]	PUNCT	FB	_	13	punct	_	SpacesAfter=\n

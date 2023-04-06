@@ -17705,33 +17705,32 @@
 # twittiro = EXPLICIT	RHETORICAL QUESTION
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
-3	appello	appello	NOUN	S	Gender=Masc|Number=Sing	23	nsubj:pass	_	_
+3	appello	appello	NOUN	S	Gender=Masc|Number=Sing	22	nsubj:pass	_	_
 4-5	al	_	_	_	_	_	_	_	_
 4	a	a	ADP	E	_	6	case	_	_
 5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Dr	dr	PROPN	SP	_	3	nmod	_	SpaceAfter=No
-7	.	.	PUNCT	FS	_	6	punct	_	_
-8	Luccisano	Luccisano	PROPN	SP	_	6	flat	_	_
-9	di	di	ADP	E	_	10	mark	_	_
-10	venire	venire	VERB	V	VerbForm=Inf	3	acl	_	_
-11	a	a	ADP	E	_	12	mark	_	_
-12	discutere	discutere	VERB	V	VerbForm=Inf	10	xcomp	_	_
-13	de	de	ADP	E	_	14	case	_	_
-14	#labuonascuola	#labuonascuola	SYM	SYM	_	12	obl	_	_
-15-16	nella	_	_	_	_	_	_	_	_
-15	in	in	ADP	E	_	18	case	_	_
-16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-17	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
-18	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
-19	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
-20	é	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
-21	ancora	ancora	ADV	B	_	23	advmod	_	_
-22	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	aux:pass	_	_
-23	accolto	accogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
-24	.	.	PUNCT	FS	_	23	punct	_	_
-25	Troppo	Troppo	ADV	B	_	26	advmod	_	_
-26	impegnato	impegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	parataxis	_	_
-27	?	?	PUNCT	FS	_	26	punct	_	SpacesAfter=\n
+6	Dr.	dr.	PROPN	SP	_	3	nmod	_	_
+7	Luccisano	Luccisano	PROPN	SP	_	6	flat	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	venire	venire	VERB	V	VerbForm=Inf	3	acl	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	discutere	discutere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	de	de	ADP	E	_	13	case	_	_
+13	#labuonascuola	#labuonascuola	SYM	SYM	_	11	obl	_	_
+14-15	nella	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+18	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+19	é	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+20	ancora	ancora	ADV	B	_	22	advmod	_	_
+21	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	aux:pass	_	_
+22	accolto	accogliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	22	punct	_	_
+24	Troppo	Troppo	ADV	B	_	25	advmod	_	_
+25	impegnato	impegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	parataxis	_	_
+26	?	?	PUNCT	FS	_	25	punct	_	SpacesAfter=\n
 
 # sent_id = train_693
 # text = Incredibile, la Gelmini è entusiasta delle linee guida della riforma Renzi - Giannini. Chi lo avrebbe mai detto!? #labuonascuola
@@ -18628,24 +18627,23 @@
 # sent_id = train_725
 # text = @user Il prof. Fotticchia potrebbe fare una gag sulla situazione assurda che #labuonascuola creerà?
 # twittiro = EXPLICIT	RHETORICAL QUESTION
-1	@user	@user	SYM	SYM	_	7	vocative:mention	_	_
+1	@user	@user	SYM	SYM	_	6	vocative:mention	_	_
 2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	prof	professore	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
-4	.	.	PUNCT	FS	_	3	punct	_	_
-5	Fotticchia	Fotticchia	PROPN	SP	_	3	nmod	_	_
-6	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-7	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
-8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	gag	gag	NOUN	S	Gender=Fem	7	obj	_	_
-10-11	sulla	_	_	_	_	_	_	_	_
-10	su	su	ADP	E	_	12	case	_	_
-11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
-13	assurda	assurdo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
-14	che	che	PRON	PR	PronType=Rel	16	obj	_	_
-15	#labuonascuola	#labuonascuola	SYM	SYM	_	16	nsubj	_	_
-16	creerà	creare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
-17	?	?	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+3	prof.	professore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	Fotticchia	Fotticchia	PROPN	SP	_	3	nmod	_	_
+5	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	gag	gag	NOUN	S	Gender=Fem	6	obj	_	_
+9-10	sulla	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+12	assurda	assurdo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	che	che	PRON	PR	PronType=Rel	15	obj	_	_
+14	#labuonascuola	#labuonascuola	SYM	SYM	_	15	nsubj	_	_
+15	creerà	creare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
 
 # sent_id = train_726
 # text = @user e un' altra che apre senza aver l'insegnante di inglese ???? I CLIL de no' artri .... #maddeche #labuonascuola (a Milano)
@@ -23308,9 +23306,9 @@
 18	fare	fare	VERB	V	VerbForm=Inf	8	ccomp	_	_
 19	#labuonascuola	#labuonascuola	SYM	SYM	_	18	obj	_	SpaceAfter=No
 20	.	.	PUNCT	FS	_	1	punct	_	_
-21-22	Pensiamoci	_	_	_	_	_	_	_	_
-21	Pensiamo	pensare	VERB	V	Mood=Imp|Number=Plur|VerbForm=Fin	1	parataxis	_	SpacesAfter=\n
-22	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	21	iobj	_	SpacesAfter=\n
+21-22	Pensiamoci	_	_	_	_	_	_	_	SpacesAfter=\n
+21	Pensiamo	pensare	VERB	V	Mood=Imp|Number=Plur|VerbForm=Fin	1	parataxis	_	_
+22	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	21	iobj	_	_
 
 # sent_id = train_906
 # text = @user e meno male che la scuola serve per educare. Il Caovur sembra essere diventato una tribuna politica. #labuonascuola
@@ -25280,30 +25278,29 @@
 # sent_id = train_982
 # text = @user Ragazzi calma, il Prof. Mario Monti se la cava da solo: e' bocconiano, mica bocchiniano! ;) by rao
 # twittiro = EXPLICIT	OTHER
-1	@user	@user	SYM	SYM	_	12	vocative:mention	_	_
+1	@user	@user	SYM	SYM	_	11	vocative:mention	_	_
 2	Ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	3	vocative	_	_
-3	calma	calma	NOUN	S	Gender=Fem|Number=Sing	12	discourse	_	SpaceAfter=No
+3	calma	calma	NOUN	S	Gender=Fem|Number=Sing	11	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	FF	_	3	punct	_	_
 5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Prof	professore	NOUN	S	Number=Sing	12	nsubj	_	SpaceAfter=No
-7	.	.	PUNCT	FS	_	6	punct	_	_
-8	Mario	mario	PROPN	SP	_	6	appos	_	_
-9	Monti	Monti	PROPN	SP	_	8	flat:name	_	_
-10	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
-11	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
-12	cava	cavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	da	da	ADP	E	_	14	case	_	_
-14	solo	solo	ADJ	A	Gender=Masc|Number=Sing	12	advmod	_	SpaceAfter=No
-15	:	:	PUNCT	FC	_	12	punct	_	_
-16	e'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
-17	bocconiano	bocconiano	ADJ	A	Gender=Masc|Number=Sing	12	parataxis	_	SpaceAfter=No
-18	,	,	PUNCT	FF	_	20	punct	_	_
-19	mica	mica	ADV	B	_	20	advmod	_	_
-20	bocchiniano	bocchiniano	ADJ	A	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
-21	!	!	PUNCT	FS	_	12	punct	_	_
-22	;)	;)	SYM	SYM	_	12	discourse:emo	_	_
-23	by	by	ADP	E	_	24	case	_	_
-24	rao	rao	PROPN	SP	_	12	parataxis	_	_
+6	Prof.	professore	NOUN	S	Number=Sing	11	nsubj	_	_
+7	Mario	mario	PROPN	SP	_	6	appos	_	_
+8	Monti	Monti	PROPN	SP	_	7	flat:name	_	_
+9	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+10	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	cava	cavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	solo	solo	ADJ	A	Gender=Masc|Number=Sing	11	advmod	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	11	punct	_	_
+15	e'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	bocconiano	bocconiano	ADJ	A	Gender=Masc|Number=Sing	11	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	mica	mica	ADV	B	_	19	advmod	_	_
+19	bocchiniano	bocchiniano	ADJ	A	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+20	!	!	PUNCT	FS	_	11	punct	_	_
+21	;)	;)	SYM	SYM	_	11	discourse:emo	_	_
+22	by	by	ADP	E	_	23	case	_	_
+23	rao	rao	PROPN	SP	_	11	parataxis	_	_
 
 # sent_id = train_983
 # text = ALLARME ITALIA: tagli alle pensioni e nuove tasse, governo Monti: milioni di rotture (di coglioni)

@@ -5,13 +5,13 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>1424</sentences><tokens>28387</tokens><words>29605</words><fused>1213</fused></total>
-    <train><sentences>1138</sentences><tokens>22656</tokens><words>23634</words><fused>976</fused></train>
+    <total><sentences>1424</sentences><tokens>28384</tokens><words>29602</words><fused>1213</fused></total>
+    <train><sentences>1138</sentences><tokens>22653</tokens><words>23631</words><fused>976</fused></train>
     <dev><sentences>144</sentences><tokens>2855</tokens><words>2995</words><fused>137</fused></dev>
     <test><sentences>142</sentences><tokens>2876</tokens><words>2976</words><fused>100</fused></test>
   </size>
-  <lemmas unique="4843" /><!-- il, ., di, essere, a, ,, @user, uno, che, [, ], :, e, ?, #labuonascuola -->
-  <forms unique="6123" /><!-- ., di, il, la, a, ,, @user, che, [, ], :, ?, e, #labuonascuola, in -->
+  <lemmas unique="4844" /><!-- il, ., di, essere, a, ,, @user, uno, che, [, ], :, e, ?, #labuonascuola -->
+  <forms unique="6125" /><!-- ., di, il, la, a, ,, @user, che, [, ], :, ?, e, #labuonascuola, in -->
   <fusions unique="174" /><!-- del, della, al, alla, nel, dei, ai, dal, delle, dell', all', alle, nella, sul, degli -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
@@ -26,7 +26,7 @@
     <tag name="NUM">300</tag><!-- due, 3, 2, mila, tre, 5, 1, 12, 7, 10 -->
     <tag name="PRON">1416</tag><!-- si, ci, che, lo, tutto, mi, chi, quello, ti, la -->
     <tag name="PROPN">2014</tag><!-- monti, mario, Renzi, italia, pd, roma, Berlusconi, Salvini, Papa, giannini -->
-    <tag name="PUNCT">4634</tag><!-- ., ,, [, ], :, ?, ", !, “, ... -->
+    <tag name="PUNCT">4631</tag><!-- ., ,, [, ], :, ?, ", !, “, ... -->
     <tag name="SCONJ">390</tag><!-- che, se, quando, perché, come, dopo, mentre, purché, sennò, Matté -->
     <tag name="SYM">2146</tag><!-- @user, #labuonascuola, #monti, @user1, @user2, #renzi, #scuola, @user3, http://t.co/oDPUtx2DvV, #Grillo -->
     <tag name="VERB">2846</tag><!-- fare, avere, essere, dire, continuare, andare, vedere, sapere, mettere, parlare -->
@@ -126,7 +126,7 @@
     <dep name="parataxis:insert">6</dep>
     <dep name="parataxis:nsubj">6</dep>
     <dep name="parataxis:obj">16</dep>
-    <dep name="punct">4634</dep>
+    <dep name="punct">4631</dep>
     <dep name="root">1424</dep>
     <dep name="vocative">63</dep>
     <dep name="vocative:mention">683</dep>

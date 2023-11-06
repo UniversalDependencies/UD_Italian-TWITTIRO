@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Italian-TWITTIRO:
-commit 071627bcf1e1aa639b62eace2fb548dac99c4631
-Merge: d3c01ff c3521c2
+commit 95f0476846f94fe260904757f8d5817b019969f8
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 9 10:51:50 2023 +0200
 Size: counted 29602 of 29602 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.77568385322999.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL         46
-Udapi: found 46 bugs.
+               TOTAL         45
+Udapi: found 45 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 29602 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-TWITTIRO/it_twittiro-ud-dev.conllu
@@ -37,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.490440351429792) = 0.125753936264049
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.984460509425039) = 0.302910925976935
+(weight=0.307692307692308) * (score{udapi}=0.984798324437538) = 0.303014869057704
 (weight=0.0769230769230769) * (score{udeprels}=0.756756756756757) = 0.0582120582120582
-(TOTAL score=0.68983317987989) * (availability=1) * (validity=1) = 0.68983317987989
+(TOTAL score=0.689937122960659) * (availability=1) * (validity=1) = 0.689937122960659
 STARS = 3.5
-UD_Italian-TWITTIRO	0.68983317987989	3.5
+UD_Italian-TWITTIRO	0.689937122960659	3.5

@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Italian-TWITTIRO:
-commit 279c74f724df0efe2b92063395f8dbbb8d0ebc67
+commit 3b29dc31b6efb98f8efb0788a37b4f07510d0dcc
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 12:39:41 2024 +0200
+Date:   Mon Nov 11 15:47:55 2024 +0100
 Size: counted 29602 of 29602 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.77568385322999.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,61 +20,61 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL         36
-Udapi: found 36 bugs.
+               TOTAL         25
+Udapi: found 25 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 29602 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-TWITTIRO/it_twittiro-ud-dev.conllu
+[Line 39 Sent dev_2 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'prima di' does not have the 'ExtPos' feature
+[Line 54 Sent dev_2 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'fuori da' does not have the 'ExtPos' feature
+[Line 109 Sent dev_4 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'Meglio che' does not have the 'ExtPos' feature
 [Line 934 Sent dev_37 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 933 Sent dev_37 Node 3]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 2585 Sent dev_100 Node 18]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 2584 Sent dev_100 Node 17]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 2841 Sent dev_109 Node 22]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 2840 Sent dev_109 Node 21]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3068 Sent dev_118 Node 12]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3067 Sent dev_118 Node 11]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3371 Sent dev_131 Node 5]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3370 Sent dev_131 Node 4]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 973 Sent dev_38 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'intorno a' does not have the 'ExtPos' feature
+[Line 1081 Sent dev_43 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'fuori da' does not have the 'ExtPos' feature
+[Line 1527 Sent dev_60 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'prima di' does not have the 'ExtPos' feature
+[Line 1780 Sent dev_69 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'fuori da' does not have the 'ExtPos' feature
+[Line 1912 Sent dev_74 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 14
+Warnings: 25
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu
 [Line 533 Sent test_21 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 532 Sent test_21 Node 1]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 534 Sent test_21 Node 3]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 532 Sent test_21 Node 1]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 715 Sent test_28 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'piuttosto che' does not have the 'ExtPos' feature
 [Line 1202 Sent test_48 Node 5]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 1201 Sent test_48 Node 4]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 1951 Sent test_76 Node 27]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 1950 Sent test_76 Node 26]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 1952 Sent test_76 Node 28]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 1950 Sent test_76 Node 26]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 1318 Sent test_52 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'dietro a' does not have the 'ExtPos' feature
+[Line 1672 Sent test_66 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
+[Line 1680 Sent test_66 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 14
+Warnings: 21
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-TWITTIRO/it_twittiro-ud-train.conllu
 [Line 633 Sent train_24 Node 24]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 632 Sent train_24 Node 23]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 761 Sent train_29 Node 25]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 760 Sent train_29 Node 24]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 6082 Sent train_237 Node 22]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 6081 Sent train_237 Node 21]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 9583 Sent train_371 Node 26]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 9582 Sent train_371 Node 25]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 10890 Sent train_422 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 10889 Sent train_422 Node 3]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 965 Sent train_37 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression '3,50 €' does not have the 'ExtPos' feature
+[Line 1072 Sent train_41 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'rispetto ad' does not have the 'ExtPos' feature
+[Line 1342 Sent train_53 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'più che' does not have the 'ExtPos' feature
+[Line 1572 Sent train_63 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'oltre a' does not have the 'ExtPos' feature
+[Line 1831 Sent train_73 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'fino ad' does not have the 'ExtPos' feature
+[Line 2648 Sent train_107 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'prima di' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 44
+Warnings: 110
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.490440351429792) = 0.125753936264049
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.98783865955003) = 0.303950356784625
+(weight=0.307692307692308) * (score{udapi}=0.991554624687521) = 0.305093730673083
 (weight=0.0769230769230769) * (score{udeprels}=0.756756756756757) = 0.0582120582120582
-(TOTAL score=0.69087261068758) * (availability=1) * (validity=1) = 0.69087261068758
+(TOTAL score=0.691764601971715) * (availability=1) * (validity=1) = 0.691764601971715
 STARS = 3.5
-UD_Italian-TWITTIRO	0.69087261068758	3.5
+UD_Italian-TWITTIRO	0.691764601971715	3.5

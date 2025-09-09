@@ -57,6 +57,7 @@ Category=value feature pairs: 42
 Data available since: UD v2.5
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: social
 Lemmas: converted from manual
 UPOS: converted from manual

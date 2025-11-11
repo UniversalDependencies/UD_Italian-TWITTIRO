@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Italian-TWITTIRO:
-commit 3b29dc31b6efb98f8efb0788a37b4f07510d0dcc
+commit 1970c79f3466b8ac3a66401d34d1bd92bba656c8
+Merge: d7b0383 2546072
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 15:47:55 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'it_twittiro'
+Language code (from CoNLL-U file name) = 'it'
+Found the following data files: it_twittiro-ud-dev.conllu, it_twittiro-ud-test.conllu, it_twittiro-ud-train.conllu
 Size: counted 29602 of 29602 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.77568385322999.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,62 +23,68 @@ Features: 14896 out of 29602 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi:
-               TOTAL         25
-Udapi: found 25 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 29602 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-TWITTIRO/it_twittiro-ud-dev.conllu
-[Line 39 Sent dev_2 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'prima di' does not have the 'ExtPos' feature
-[Line 54 Sent dev_2 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'fuori da' does not have the 'ExtPos' feature
-[Line 109 Sent dev_4 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'Meglio che' does not have the 'ExtPos' feature
-[Line 934 Sent dev_37 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 933 Sent dev_37 Node 3]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 973 Sent dev_38 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'intorno a' does not have the 'ExtPos' feature
-[Line 1081 Sent dev_43 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'fuori da' does not have the 'ExtPos' feature
-[Line 1527 Sent dev_60 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'prima di' does not have the 'ExtPos' feature
-[Line 1780 Sent dev_69 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'fuori da' does not have the 'ExtPos' feature
-[Line 1912 Sent dev_74 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
+[Line 39 Sent dev_2]: [L3 Warning fixed-without-extpos] Fixed expression 'prima di' does not have the 'ExtPos' feature
+[Line 54 Sent dev_2]: [L3 Warning fixed-without-extpos] Fixed expression 'fuori da' does not have the 'ExtPos' feature
+[Line 109 Sent dev_4]: [L3 Warning fixed-without-extpos] Fixed expression 'Meglio che' does not have the 'ExtPos' feature
+[Line 477 Sent dev_18]: [L3 Warning obl-should-be-nmod] The parent (node [18] 'discorso') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 569 Sent dev_23]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'migranti') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 571 Sent dev_23]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'fuga') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 934 Sent dev_37]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 933 Sent dev_37]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 973 Sent dev_38]: [L3 Warning fixed-without-extpos] Fixed expression 'intorno a' does not have the 'ExtPos' feature
+[Line 1077 Sent dev_43]: [L3 Warning obl-should-be-nmod] The parent (node [4] 'file') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 ...suppressing further errors regarding Warning
-Warnings: 25
-*** PASSED ***
+[Line 1221 Sent dev_49]: [L3 Syntax too-many-objects] Multiple direct objects [12, 16] ('ti', 'docenti') under the predicate 'pago'.
+Syntax errors: 1
+Warnings: 30
+*** FAILED *** with 1 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu
-[Line 533 Sent test_21 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 532 Sent test_21 Node 1]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 534 Sent test_21 Node 3]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 532 Sent test_21 Node 1]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 715 Sent test_28 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'piuttosto che' does not have the 'ExtPos' feature
-[Line 1202 Sent test_48 Node 5]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 1201 Sent test_48 Node 4]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 1318 Sent test_52 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'dietro a' does not have the 'ExtPos' feature
-[Line 1672 Sent test_66 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
-[Line 1680 Sent test_66 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
+[Line 455 Sent test_18]: [L3 Syntax too-many-objects] Multiple direct objects [19, 24] ('ragione', 'dì') under the predicate 'ha'.
+[Line 533 Sent test_21]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 532 Sent test_21]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 534 Sent test_21]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 532 Sent test_21]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 715 Sent test_28]: [L3 Warning fixed-without-extpos] Fixed expression 'piuttosto che' does not have the 'ExtPos' feature
+[Line 1037 Sent test_40]: [L3 Warning obl-should-be-nmod] The parent (node [13] 'concorso') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1202 Sent test_48]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 1201 Sent test_48]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 1318 Sent test_52]: [L3 Warning fixed-without-extpos] Fixed expression 'dietro a' does not have the 'ExtPos' feature
+[Line 1672 Sent test_66]: [L3 Warning fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 21
-*** PASSED ***
+Syntax errors: 1
+Warnings: 23
+*** FAILED *** with 1 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-TWITTIRO/it_twittiro-ud-train.conllu
-[Line 633 Sent train_24 Node 24]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 632 Sent train_24 Node 23]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 761 Sent train_29 Node 25]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 760 Sent train_29 Node 24]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 965 Sent train_37 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression '3,50 €' does not have the 'ExtPos' feature
-[Line 1072 Sent train_41 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'rispetto ad' does not have the 'ExtPos' feature
-[Line 1342 Sent train_53 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'più che' does not have the 'ExtPos' feature
-[Line 1572 Sent train_63 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'oltre a' does not have the 'ExtPos' feature
-[Line 1831 Sent train_73 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'fino ad' does not have the 'ExtPos' feature
-[Line 2648 Sent train_107 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'prima di' does not have the 'ExtPos' feature
+[Line 633 Sent train_24]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 632 Sent train_24]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 761 Sent train_29]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 760 Sent train_29]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 965 Sent train_37]: [L3 Warning fixed-without-extpos] Fixed expression '3,50 €' does not have the 'ExtPos' feature
+[Line 1072 Sent train_41]: [L3 Warning fixed-without-extpos] Fixed expression 'rispetto ad' does not have the 'ExtPos' feature
+[Line 1342 Sent train_53]: [L3 Warning fixed-without-extpos] Fixed expression 'più che' does not have the 'ExtPos' feature
+[Line 1572 Sent train_63]: [L3 Warning fixed-without-extpos] Fixed expression 'oltre a' does not have the 'ExtPos' feature
+[Line 1831 Sent train_73]: [L3 Warning fixed-without-extpos] Fixed expression 'fino ad' does not have the 'ExtPos' feature
+[Line 2378 Sent train_97]: [L3 Warning obl-should-be-nmod] The parent (node [10] 'pistola') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 ...suppressing further errors regarding Warning
-Warnings: 110
-*** PASSED ***
-Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.490440351429792) = 0.125753936264049
-(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
-(weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.991554624687521) = 0.305093730673083
-(weight=0.0769230769230769) * (score{udeprels}=0.756756756756757) = 0.0582120582120582
-(TOTAL score=0.691764601971715) * (availability=1) * (validity=1) = 0.691764601971715
-STARS = 3.5
-UD_Italian-TWITTIRO	0.691764601971715	3.5
+[Line 3480 Sent train_140]: [L3 Syntax too-many-objects] Multiple direct objects [5, 7] ('#labuonascuola', '#carascuola') under the predicate 'direi'.
+[Line 6109 Sent train_238]: [L3 Syntax too-many-objects] Multiple direct objects [9, 19] ('segnale', 'lo') under the predicate 'mandare'.
+[Line 8213 Sent train_320]: [L3 Syntax too-many-objects] Multiple direct objects [20, 22] ('li', 'tutti') under the predicate 'porto'.
+Syntax errors: 3
+Warnings: 127
+*** FAILED *** with 3 errors
+Exit code: 1
+Validity: 0.01
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.490440351429792) = 0.181644574603627
+(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
+(weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
+(weight=0.111111111111111) * (score{udeprels}=0.756756756756757) = 0.0840840840840841
+(TOTAL score=0.558524591875801) * (availability=1) * (validity=0.01) = 0.00558524591875801
+STARS = 0
+UD_Italian-TWITTIRO	0.00558524591875801	0
